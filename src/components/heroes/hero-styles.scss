@@ -1,0 +1,294 @@
+@mixin breakpoint($breakpoint){
+	@media screen and (max-width: $breakpoint) {
+		@content
+	}
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 4rem;
+	@include breakpoint(600px){
+		padding: 4rem 2rem;
+	}
+	@include breakpoint(340px){
+		padding: 4rem 1rem !important;
+	}
+}
+
+.hero1 {
+	min-height: calc(100vh - 6.725rem);
+	padding-top: 0 !important;
+	position: relative;
+	.main {
+		padding: 0;
+	}
+	p {
+		margin: 3rem 0;
+		width: 80%;
+	}
+	.img-container {
+		display: flex;
+		justify-content: flex-end;
+		height: auto;
+	}
+	img {
+		border-radius: 3rem;
+		max-width: 90%;
+		align-self: flex-start;
+	}
+	@include breakpoint(1100px) {
+		min-height: 60vh;
+	}
+	@include breakpoint(980px){
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		.grid-wrapper {
+			.img-container {
+				display: flex;
+				justify-content: center;
+				img {
+					max-width: 90%;
+					margin-top: 5rem;
+					// max-width: 22.5rem;
+				}
+			}
+		}
+	}
+	@include breakpoint(600px) {
+		justify-content: flex-start;
+		align-self: flex-start;
+		height: 100vh;
+		max-height: 40rem;
+		.grid-wrapper {
+			height: 100%;
+		}
+		.main {
+			flex-grow: 1;
+			h1{
+				width: 70%;
+				min-width: 17.5rem;
+			}
+			p {
+				margin: 3rem 0 auto;
+				width: 90%;
+				flex-basis: 80%;
+			}
+			button {
+				margin-top: 15vh;
+				@include breakpoint(370px){
+					margin-top: 10vh;
+				}
+			}
+		}
+		.img-container {
+			img {
+				display: none;
+				max-width: 0;
+				position: absolute;
+			}
+		}
+	}
+} 
+
+.hero2 {
+	text-align: center;
+	img {
+		max-width: 50%;
+	}
+	h1 {
+		margin-bottom: 4rem;
+	}
+	h3 {
+		margin: 2rem 0 1rem;
+	}
+	.hero2-item {
+		margin-bottom: 3em;
+	}
+	button {
+		margin: 0 auto;
+	}
+	@include breakpoint(600px){
+		padding-top: 2rem;
+		h3, p {
+			width: 100%;
+		}
+	}
+}
+
+.hero3 {
+	.lead {
+		margin: 0;
+	}
+	h1 {
+		width: 90%;
+	}
+	p {
+		margin: 3rem 0;
+		width: 70%;
+	}
+	img {
+		border-radius: 3rem;
+		max-width: 90%;
+	}
+	.img-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	dt {
+		font-weight: bold;
+		// width: 70%; 
+		font-size: 1.125rem;
+		&::before {
+			content: url('../../assets/images/purpletick.svg');
+			position: relative;
+			max-width: 2rem;
+			margin-right: 1rem;
+		} 
+	}
+	dd {
+		margin:1.5rem 0 3rem;
+		width: 70%;
+		font-size: 1.125rem;
+	}
+	@include breakpoint(980px) {
+		dd {
+			width: 100%;
+			font-size: 1rem;
+		}
+		p {
+			width: 100%;
+		}
+		dt {
+			// width: 100%;
+		}
+		.grid-wrapper {
+			display: flex;
+			flex-direction: column;
+			.img-container {
+				display: flex;
+				justify-content: center;
+				order: -1;
+				margin-bottom: 4rem;
+			}
+		}
+	}
+
+}
+
+.hero4 {
+	margin: 7rem 0;
+	background: #693FAD;
+	color: #ffffff;
+	min-height: 20vh;
+	max-height: 35rem;
+	flex-direction: column;
+	p.desc  {
+		width: 80%;
+	}
+	.main {
+		width: 100%;
+		// min-width: 24rem;
+		margin: 0 auto;
+		padding: 2.5rem 0;
+	}
+	.img-container {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		position: relative;
+	}
+	h1 {
+		color: #ffffff;
+	}
+	img {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		border-radius: 3rem;
+		max-width: 90%;
+		box-shadow: -20px 4px 50px rgba(0, 0, 0, 0.25);
+	}
+	.btns {
+		display: flex;
+		margin: 2rem 0 0;
+		width: 100%;
+		justify-content: flex-start;
+	}
+}
+
+.hero4-mobile {
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0;
+	min-width: 0 !important;
+	@include breakpoint(600px) {
+		padding: 0 !important;
+	}
+	h1 {
+		color: #ffffff;
+		min-width: 0 !important;
+	}
+	p {
+		min-width: 0 !important;
+	}
+	.main {
+		background: #693FAD;
+		color: #ffffff;
+		flex-direction: column;
+		padding: 4rem 2rem; 
+		@include breakpoint(340px){
+			padding: 4rem 1rem;
+		}
+		min-width: 0;
+	}
+	img {
+		width: 70%;
+		border-radius: 3rem;
+		max-width: 22.5rem;
+		display: block;
+		margin: 2rem auto;
+		box-shadow: -20px 4px 50px rgba(0, 0, 0, 0.25);
+	}
+	.btns {
+		display: flex;
+		margin: 2rem 0 0;
+		width: 100%;
+		justify-content: flex-start;
+		button {
+			margin-right: 1rem;
+			font-size: 0.9rem;
+			@include breakpoint(600px) {
+				width: 8rem;
+				height: 3rem;
+			}
+		}
+	}
+}
+
+.hero5 {
+	text-align: center;
+	min-height: 40rem;
+	.lead {
+		margin: 0 auto;
+	}
+	p {
+		margin: 2rem auto 3rem;
+	 	width: 60%;
+		font-size: 1.125rem;
+	}
+	button {
+		margin: 0 auto;
+	}
+	@include breakpoint(980px){
+		p {
+			width: 100%;
+		}
+	}
+}
