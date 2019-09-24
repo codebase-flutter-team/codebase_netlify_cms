@@ -20,15 +20,14 @@ section2:
     - heading: Prototyping
       image: /img/hero_icon_1.svg
       text: |
-        Creating a minimum viable product that you can test with real people
-    - heading: Full-scale Launch
+        Design an interactive prototype that you can test with real people
+    - heading: Minimum Viable Product
       image: /img/hero_icon_2.svg
-      text: |
-        We will work with you to design, develop & launch your new product
-    - heading: Continual Support
+      text: Build a lazer-focused real life app to test with users.
+    - heading: Fully-Featured Product
       image: /img/hero_icon_3.svg
       text: |
-        Ensuring a great user experience & developing features your users want
+        Turn your design into a real app for Android, IOS & the web
   heading:
     heading: How we can help you
     subheading: What We Do
