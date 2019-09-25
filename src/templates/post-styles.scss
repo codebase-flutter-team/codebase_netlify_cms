@@ -82,3 +82,9 @@
     align-items: center;
     justify-content: center;
 }
+
+.post-topic.hero {
+    @include breakpoint(981px) {
+        padding-top: 0;
+    }
+}
