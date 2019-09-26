@@ -7,27 +7,30 @@ subtitle: >-
 header_image: /img/codebase_logo.png
 meta_title: Home | Codebase Studio - Cross-platform mobile and web development agency
 meta_description: >-
-  Have an idea for a tech startup? We build your technology while you focus on
-  the business. 
+  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
+  consectetur purus sit amet fermentum.
 section1:
   description: >-
     We are a cross-platform development agency that wants to grow your idea into
     a huge success.
-  heading: We help non-technical founders build technical things
+  heading: We help non-technical founders build technical things testing...
   image: /img/following_the_idea.png
 section2:
   blurbs:
     - heading: Prototyping
       image: /img/hero_icon_1.svg
       text: |
-        Design an interactive prototype that you can test with real people
-    - heading: Minimum Viable Product
+        Creating a minimum viable product that you can test with real people
+    - heading: Full-scale Launch
       image: /img/hero_icon_2.svg
-      text: Build a lazer-focused real life app to test with users.
-    - heading: Fully-Featured Product
+      text: |
+        We will work with you to design, develop & launch your new product
+    - heading: Continual Support
       image: /img/hero_icon_3.svg
       text: |
-        Turn your design into a real app for Android, IOS & the web
+        Ensuring a great user experience & developing features your users want
   heading:
     heading: How we can help you
     subheading: What We Do
