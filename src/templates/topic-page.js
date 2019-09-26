@@ -107,7 +107,6 @@ export const pageQuery = graphql`
               slug
             }
             frontmatter {
-              tags
               featuredimage{
                 childImageSharp {
                   fluid(maxWidth: 400) {
