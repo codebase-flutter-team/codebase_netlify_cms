@@ -122,50 +122,10 @@ select.input, textarea.input {
     }
 }
 
-// select::after {
-//     content: url('../../assets/images/chevron-down.svg');
-//     position: absolute;
-//     right: 0;
-//     top: 50%;
-// }
 
 select>option {
     padding: 1rem;
 }
-
-// .dropdown {
-//     padding: 0 18px !important;
-//     height: 4rem;
-//     border-radius: 5px !important;
-//     &:active {
-//         outline: 1px solid green !important;
-//         border: 1px solid green !important;
-//     }
-//     &:focus {
-//         outline: 1px solid green !important;
-//         border: 1px solid green !important;
-//     }
-// }
-
-// .react-dropdown-select-input {
-//     margin: 0;
-//     padding: 0;
-   
-//     font-size: 1.125rem !important; 
-// }
-
-// #option {
-//     height: 4rem !important;
-//     &:active {
-//         outline: 1px solid green !important;
-//         border: 1px solid green !important;
-//     }
-// }
-
-// .styled__control-is-focused {
-//     outline: 1px solid #7336FF !important;
-//     border: 1px solid #7336FF !important;
-// }
 
 .select {
     position: relative;
@@ -204,6 +164,25 @@ button {
     }
     &:active{
         border: 2px solid #693FAD;
-        color: '#693FAD';
+        color: #693FAD;
+    }
+}
+
+select {
+    background-color: #FFFFFF;
+    option {
+        &:invalid {
+            background-color: #ffffff;
+        }
+        [disabled] {
+            background-color: #ffffff;
+        }
+    }
+    &:invalid {
+        background-color: #FFFFFF;
+    }
+
+    [disabled] {
+        background-color: #ffffff;
     }
 }
