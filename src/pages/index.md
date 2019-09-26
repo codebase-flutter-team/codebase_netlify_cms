@@ -30,7 +30,7 @@ section2:
     - heading: Fully-Featured Product
       image: /img/hero_icon_3.svg
       text: |
-        Ensuring a great user experience & developing features your users want
+        Ensuring a great user experience & developing features your users want.
   heading:
     heading: How we can help you
     subheading: What We Do
