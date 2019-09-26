@@ -23,11 +23,11 @@ section2:
       image: /img/hero_icon_1.svg
       text: |
         Creating a minimum viable product that you can test with real people
-    - heading: Full-scale Launch
+    - heading: Minimum Viable Product
       image: /img/hero_icon_2.svg
       text: |
         We will work with you to design, develop & launch your new product
-    - heading: Continual Support
+    - heading: Fully-Featured Product
       image: /img/hero_icon_3.svg
       text: |
         Ensuring a great user experience & developing features your users want
