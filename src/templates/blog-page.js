@@ -104,7 +104,6 @@ export default BlogPage
               slug
             }
             frontmatter {
-              tags
               featuredimage{
                 childImageSharp {
                   fluid(maxWidth: 400) {
