@@ -1,7 +1,7 @@
 ---
 templateKey: pricing-page
 pricing_page_section1:
-  heading: Pricing testing...
+  heading: Pricing
   subheading: >-
     Download our cost calculator app! Not only will you be able to test out
     performance a Flutter app is, but you will be able to compare our
