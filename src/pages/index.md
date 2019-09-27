@@ -9,8 +9,10 @@ meta_description: >-
   startup. Get a quote today.
 section1:
   description: >-
-    We are a cross-platform development company that wants to grow your idea
-    into a huge success.
+    We want to be your long-term partner who takes the whole
+
+    app development process off your shoulders so you can focus on building a
+    startup.
   heading: We help non-technical founders develop amazing software
   image: /img/following_the_idea.png
 section2:
