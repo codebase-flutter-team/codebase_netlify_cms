@@ -5,12 +5,12 @@ subtitle: Cross-platform mobile and web development company
 header_image: /img/codebase_logo.png
 meta_title: Flutter Software Development Company |  Codebase
 meta_description: >-
-  We help non-technical founders develop amazing mobile and web technologies for
-  their startup. Get a quote today.
+  We help non-technical founders develop amazing mobile and web tech for their
+  startup. Get a quote today.
 section1:
   description: >-
-    We are a cross-platform development agency that wants to grow your idea into
-    a huge success.
+    We are a cross-platform development company that wants to grow your idea
+    into a huge success.
   heading: We help non-technical founders develop amazing technical
   image: /img/following_the_idea.png
 section2:
@@ -18,15 +18,15 @@ section2:
     - heading: Prototyping
       image: /img/hero_icon_1.svg
       text: |
-        Creating a minimum viable product that you can test with real people
+        Creating a design mockup and interactive prototype to with real people
     - heading: Minimum Viable Product
       image: /img/hero_icon_2.svg
-      text: |
-        We will work with you to design, develop & launch your new product
+      text: >
+        Design & develop a lazer focused version of your idea to test in the
+        real world
     - heading: Fully-Featured Product
       image: /img/hero_icon_3.svg
-      text: |
-        Ensuring a great user experience & developing features your users want
+      text: Build out a fully functional web and mobile app that is ready to scale
   heading:
     heading: How we can help you
     subheading: What We Do
