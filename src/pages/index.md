@@ -56,7 +56,7 @@ section4:
   description: >
     Not only will you be able to test out performance a Flutter app is, but you
     will be able to compare our development costs to native development.
-  heading: Download the Cost Calculator
+  heading: Download the cost calculator
   image: /img/placeholder394x707.png
   subheading: How much will my project cost?
 section5:
