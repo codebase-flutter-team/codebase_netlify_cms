@@ -1,19 +1,17 @@
 ---
 templateKey: index-page
 title: Flutter Software Development Company | Codebase
-subtitle: Cross-platform mobile and web development agency
+subtitle: Cross-platform mobile and web development company
 header_image: /img/codebase_logo.png
-meta_title: Home | Codebase Studio - Cross-platform mobile and web development agency
+meta_title: Flutter Software Development Company |  Codebase
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  We help non-technical founders develop amazing mobile and web technologies for
+  their startup. Get a quote today.
 section1:
   description: >-
     We are a cross-platform development agency that wants to grow your idea into
     a huge success.
-  heading: We help non-technical founders build technical things testing...
+  heading: We help non-technical founders develop amazing technical
   image: /img/following_the_idea.png
 section2:
   blurbs:
