@@ -1,9 +1,7 @@
 ---
 templateKey: index-page
 title: Flutter Software Development Company | Codebase
-subtitle: >-
-  We bring your product to all major platforms for a fraction of the cost and
-  time.
+subtitle: Cross-platform mobile and web development agency
 header_image: /img/codebase_logo.png
 meta_title: Home | Codebase Studio - Cross-platform mobile and web development agency
 meta_description: >-
