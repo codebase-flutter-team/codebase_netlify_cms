@@ -11,7 +11,7 @@ section1:
   description: >-
     We are a cross-platform development company that wants to grow your idea
     into a huge success.
-  heading: We help non-technical founders develop amazing technical
+  heading: We help non-technical founders develop amazing software
   image: /img/following_the_idea.png
 section2:
   blurbs:
