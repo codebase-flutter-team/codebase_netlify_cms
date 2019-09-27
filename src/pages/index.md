@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: We create amazing cross-platform experiences
+title: Flutter Software Development Company | Codebase
 subtitle: >-
   We bring your product to all major platforms for a fraction of the cost and
   time.
