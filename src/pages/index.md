@@ -49,7 +49,7 @@ section3:
       We exclusively use Flutter, Google’s cross-platform technology that is
       able to target all major platforms. There are huge benifits in developing
       with Flutter.
-    heading: 'Develop Once, Deploy Everywhere'
+    heading: 'Develop once, deploy everywhere'
     image: /img/network_2.png
     subheading: How are we different?
 section4:
