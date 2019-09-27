@@ -33,16 +33,16 @@ section2:
 section3:
   blurbs:
     - text: >
-        Flutter compiles down to bytecode, which allows it to run at 60 & 120
-        FPS, exactly like a native app
+        Flutter compiles down machine code, which allows it to perform at 60 &
+        120 FPS, exactly like a native app
       title: Native Performance
     - text: >
         Flutter allows one codebase to generate an Andriod, IOS and web app with
         future support for outputting a desktop and IoT devices
       title: Supports all Major Platforms
-    - text: >
-        Not only do we only have to develop one codebase for all platforms,
-        Flutter
+    - text: >-
+        Only only are our developers extremely efficient, only having to write
+        one codebase allows us to build your project fast and cheaper 
       title: Built in Record Time
   heading:
     description: >
