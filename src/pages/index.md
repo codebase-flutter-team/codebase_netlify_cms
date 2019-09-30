@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-header_image: /img/codebase_logo.png
+image: /img/codebase_logo.png
 meta_title: Flutter Software Development Company |  Codebase
 meta_description: >-
   We help non-technical founders develop amazing mobile and web tech for their
