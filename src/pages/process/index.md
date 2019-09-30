@@ -11,25 +11,31 @@ process_section1:
 process_section2:
   heading: Our Process
   subheading: What We Do
+  text: placeholder
 process_section3:
   heading: Design Research
   image: /img/process_img_1.png
   subheading: Research
+  text: placeholder
 process_section4:
   heading: User Experience Prototyping
   image: /img/process_img_2.png
   subheading: What We Do
+  text: placeholder
 process_section5:
   heading: Develop & Test
   image: /img/process_img_3.png
   subheading: What We Do
+  text: placeholder
 process_section6:
   heading: Launch Prep
   image: /img/process_img_4.png
   subheading: What We Do
+  text: placeholder
 process_section7:
   heading: Launch
   image: /img/process_img_5.png
   subheading: What We Do
+  text: placeholder
 ---
 
