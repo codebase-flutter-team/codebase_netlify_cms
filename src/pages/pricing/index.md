@@ -1,5 +1,8 @@
 ---
+meta_title: Pricing
+meta_description: pricing
 templateKey: pricing-page
+path: /pricing
 pricing_page_section1:
   heading: Pricing
   subheading: >-

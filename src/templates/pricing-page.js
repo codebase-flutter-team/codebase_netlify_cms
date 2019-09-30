@@ -6,6 +6,7 @@ import Section2 from '../components/pricing-page/Section2'
 import Hero4 from '../components/heroes/Hero4'
 import Hero4Mobile from '../components/heroes/Hero4Mobile'
 import Hero5 from '../components/heroes/Hero5'
+import SEO from '../components/SEO/Seo'
 
 export class PricingPageTemplate extends Component {
     constructor(props) {
@@ -27,10 +28,11 @@ export class PricingPageTemplate extends Component {
     
 
     render() {
-      const {section1, section2, section3, section4} = this.props;
+      const {section1, section2, section3, section4, meta_title, meta_description, path} = this.props;
 
         return (
             <Layout>
+                <SEO title={meta_title} description={meta_description} pathname={path} />
                 <Section1 content={section1} />
                 <Section2 content={section2} />
                 {this.state.isMobile ? <Hero4Mobile content={section3}/> : <Hero4 content={section3}/>}
@@ -48,6 +50,9 @@ const PricingPage = ({ data }) => {
         <PricingPageTemplate 
             section1={currentPage.frontmatter.pricing_page_section1}
             section2={currentPage.frontmatter.pricing_page_section2}
+            meta_title={currentPage.frontmatter.meta_title}
+            meta_description={currentPage.frontmatter.meta_description}
+            path={currentPage.frontmatter.path}
             section3={mainPage.frontmatter.section4}
             section4={mainPage.frontmatter.section5}
         />
@@ -81,6 +86,9 @@ export const pageQuery = graphql`
     }
     currentPage: markdownRemark(frontmatter: { templateKey: { eq: "pricing-page" } }) {
      frontmatter {
+      meta_title
+      meta_description
+      path
       pricing_page_section1 {
         heading
         subheading

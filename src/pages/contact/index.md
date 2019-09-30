@@ -1,4 +1,6 @@
 ---
+meta_title: Contact
+meta_description: contact
 templateKey: contact-page
 path: /contact
 

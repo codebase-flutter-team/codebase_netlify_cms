@@ -8,16 +8,18 @@ import Section4 from '../components/process-page/Section4';
 import Section5 from '../components/process-page/Section5';
 import Section6 from '../components/process-page/Section6';
 import Section7 from '../components/process-page/Section7';
-import Hero5 from '../components/heroes/Hero5'
+import Hero5 from '../components/heroes/Hero5';
+import SEO from '../components/SEO/Seo'
 
 export class ProcessPageTemplate extends Component {
     constructor(props){
         super(props);
     }
     render() {
-        const {section1, section2, section3, section4, section5, section6, section7, section8} = this.props
+        const {section1, section2, section3, section4, section5, section6, section7, section8, meta_title, meta_description, path} = this.props
         return (
            <Layout>
+               <SEO title={meta_title} description={meta_description} pathname={path} />
                <Section1 content={section1}/>
                <Section2 content={section2}/>
                <Section3 content={section3}/>
@@ -37,6 +39,9 @@ const ProcessPage = ({data}) => {
   
     return  (
         <ProcessPageTemplate
+            meta_title={currentPage.frontmatter.meta_title}
+            meta_description={currentPage.frontmatter.meta_description}
+            path={currentPage.frontmatter.path}
             section1={currentPage.frontmatter.process_section1}
             section2={currentPage.frontmatter.process_section2}
             section3={currentPage.frontmatter.process_section3}
@@ -65,6 +70,11 @@ export const pageQuery = graphql`
     }
     currentPage: markdownRemark(frontmatter: { templateKey: { eq: "process-page" } }) {
      frontmatter {
+        meta_title
+        meta_description
+        path
+        title
+        description
         process_section1 {
             heading
             text

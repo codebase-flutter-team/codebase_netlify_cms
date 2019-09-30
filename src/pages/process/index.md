@@ -1,5 +1,8 @@
 ---
+meta_title: Process
+meta_description: process
 templateKey: process-page
+path: /process
 process_section1:
   heading: A process that leads to success
   text: >-

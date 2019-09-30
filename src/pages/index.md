@@ -1,12 +1,11 @@
 ---
 templateKey: index-page
-title: Flutter Software Development Company | Codebase
-subtitle: Cross-platform mobile and web development company
 header_image: /img/codebase_logo.png
 meta_title: Flutter Software Development Company |  Codebase
 meta_description: >-
   We help non-technical founders develop amazing mobile and web tech for their
   startup. Get a quote today.
+path: /
 section1:
   description: >-
     We want to be your long-term partner who takes the whole

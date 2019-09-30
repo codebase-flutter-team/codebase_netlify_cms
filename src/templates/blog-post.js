@@ -9,6 +9,7 @@ import Topics from '../components/blog/Topics'
 import PopularPosts from '../components/blog/PopularPosts'
 import Join from '../components/blog/Join'
 import './blog-styles.scss'
+import SEO from '../components/SEO/Seo'
 
 export const BlogPostTemplate = ({
   content,
@@ -16,13 +17,13 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  helmet,
+  featuredimage
 }) => {
   const PostContent = contentComponent || Content
 
   return (
     <section className="section blog-wrapper">
-      {helmet || ''}
+      <SEO title={title} description={description} image={featuredimage}/>
       <div className="blogPage-content">
         <div className="grid-wrapper">
           <div className="col-8 blogPagepostbody">
@@ -71,17 +72,10 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
-        tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        meta_title={post.frontmatter.title}
+        meta_description={post.frontmatter.description}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   )
@@ -104,6 +98,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        featuredimage {
+          publicURL
+        }
       }
     }
   }
