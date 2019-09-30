@@ -1,6 +1,9 @@
 ---
+meta_title: Blog
+meta_description: 
 templateKey: blog-page
 path: /blog
+visible: false
 
 blog-page-section1:
     heading: Grow your knowledge

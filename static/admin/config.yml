@@ -9,10 +9,12 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
+    filter: {field: "templateKey", value: "blog-post"}
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "visible", name: "visible", widget: "hidden", default: "true"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Topic", name: "topic", widget: "string"}
       - {label: "Popular Post", name: "popularpost", widget: "boolean", required: false, default: false}
@@ -28,8 +30,6 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: "Title", name: "title", widget: string}
-          - {label: "SubTitle", name: "subtitle", widget: string}
           - {label: "Image", name: "header_image", widget: image}
           - {label: "Meta_Title", name: "meta_title", widget: string}
           - {label: "Meta_Description", name: "meta_description", widget: "string"}
@@ -58,6 +58,8 @@ collections:
         name: "pricing"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pricing-page"}
+          - {label: "Meta_title", name: "meta_title", widget: "string"}
+          - {label: "Meta_description", name: "meta_description", widget: "string"}         
           - {label: "Section 1", name: "pricing_page_section1", widget: "object", fields: [
             {label: "Header", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"}
@@ -73,6 +75,8 @@ collections:
         name: "contact"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+          - {label: "Meta_title", name: "meta_title", widget: "string"}
+          - {label: "Meta_description", name: "meta_description", widget: "string"}          
           - {label: "Section 1", name: "contact_page_section1", widget: "object", fields: [
             {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"}
@@ -87,6 +91,8 @@ collections:
         name: "Process"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "process-page"}
+          - {label: "Meta_title", name: "meta_title", widget: "string"}
+          - {label: "Meta_description", name: "meta_description", widget: "string"}          
           - {label: "Section 1", name: "process_section1", widget: "object", fields: [
             {label: "Heading", name: "heading", widget: "string"},
             {label: "Text", name: "text", widget: "text"}
@@ -98,26 +104,31 @@ collections:
           - {label: "Section 3", name: "process_section3", widget: "object", fields: [
             {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Text", name: "text", widget: "text"},
             {label: "Image", name: "image", widget: "image"}
             ]}
           - {label: "Section 4", name: "process_section4", widget: "object", fields: [
             {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Text", name: "text", widget: "text"},
             {label: "Image", name: "image", widget: "image"}
             ]}
           - {label: "Section 5", name: "process_section5", widget: "object", fields: [
-            {label: "Heading", name: "heading", widget: "string"},
+           {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Text", name: "text", widget: "text"},
             {label: "Image", name: "image", widget: "image"}
             ]}
           - {label: "Section 6", name: "process_section6", widget: "object", fields: [
             {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Text", name: "text", widget: "text"},
             {label: "Image", name: "image", widget: "image"}
             ]}
           - {label: "Section 7", name: "process_section7", widget: "object", fields: [
             {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Text", name: "text", widget: "text"},
             {label: "Image", name: "image", widget: "image"}
             ]}
     

@@ -7,6 +7,7 @@ import Topics from '../components/blog/Topics'
 import PopularPosts from '../components/blog/PopularPosts'
 import './post-styles.scss'
 import Join from '../components/blog/Join'
+import SEO from '../components/SEO/Seo'
 
 export class BlogPageTemplate extends Component {
     constructor(props){
@@ -25,9 +26,10 @@ export class BlogPageTemplate extends Component {
         const isLast = page === numPages
         const prevPage = page - 1 === 1 ? "/blog" : `/blog/${(page - 1).toString()}`
         const nextPage = `/blog/${(page + 1).toString()}`
-        const {section1, content} = this.props
+        const {section1, content, meta_title, meta_description, path} = this.props
         return (
            <Layout>
+               <SEO title={meta_title} description={meta_description} pathname={path} />
                <Section1 content={section1}/>
                 <div className="grid-wrapper posts-wrapper">
                  <div className="post-container col-8 col-sm-12">
@@ -79,12 +81,12 @@ const BlogPage = ({data, pageContext}) => {
     return  (
         <BlogPageTemplate
             content={posts}
+            meta_title={currentPage.frontmatter.meta_title}
+            meta_description={currentPage.frontmatter.meta_description}
+            path={currentPage.frontmatter.path}
             section1={currentPage.frontmatter.blog_page_section1}
             context={pageContext}
-            // featuredImage={featuredImage}
-            // excerpt={excerpt}
-            // topic={topic}
-            // link={path}
+            
         />
       )
   }
@@ -120,6 +122,9 @@ export default BlogPage
    
       currentPage: markdownRemark(frontmatter: {templateKey: {eq: "blog-page"}}) {
        frontmatter {
+         meta_title
+         meta_description
+         path
          blog_page_section1 {
            heading
            text

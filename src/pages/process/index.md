@@ -1,5 +1,7 @@
 ---
 templateKey: process-page
+meta_title: Process
+meta_description: process
 process_section1:
   heading: A process that leads to success
   text: >-
@@ -12,21 +14,40 @@ process_section3:
   heading: Design Research
   image: /img/process_img_1.png
   subheading: Research
+  text: >-
+    We will take your project prequirements and required features and map it to
+    your ideas, sketchs and designs.
 process_section4:
   heading: User Experience Prototyping
   image: /img/process_img_2.png
   subheading: What We Do
+  text: >-
+    Download our cost calculator app! Not only will you be able to test out
+    performance a Flutter app is, but you will be able to compare our
+    development costs compared to native development.
 process_section5:
   heading: Develop & Test
   image: /img/process_img_3.png
   subheading: What We Do
+  text: >-
+    Download our cost calculator app! Not only will you be able to test out
+    performance a Flutter app is, but you will be able to compare our
+    development costs compared to native development.
 process_section6:
   heading: Launch Prep
   image: /img/process_img_4.png
   subheading: What We Do
+  text: >-
+    Download our cost calculator app! Not only will you be able to test out
+    performance a Flutter app is, but you will be able to compare our
+    development costs compared to native development.
 process_section7:
   heading: Launch
   image: /img/process_img_5.png
   subheading: What We Do
+  text: >-
+    Download our cost calculator app! Not only will you be able to test out
+    performance a Flutter app is, but you will be able to compare our
+    development costs compared to native development.
 ---
 
