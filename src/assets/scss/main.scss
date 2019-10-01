@@ -1479,6 +1479,16 @@ h1.lead, h3.lead {
 	}
 }
 
+.hero.hero-mini {
+	padding: 2rem 4rem;
+	@include breakpoint(600px){
+		padding: 2rem 2rem;
+	}
+	@include breakpoint(340px){
+		padding: 2rem 1rem !important;
+	}
+}
+
 @include breakpoint(340px) {
 	button {
 		max-width: 12rem;

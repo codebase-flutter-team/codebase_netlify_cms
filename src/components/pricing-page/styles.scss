@@ -37,13 +37,9 @@
 }
 
 .pricing-section1 {
-    margin-top: 1rem;
     text-align: center;
     h1 {
         margin-bottom: 3rem;
-    }
-    @include breakpoint(981px){
-        padding-top: 0 !important;
     }
 }
 

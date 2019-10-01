@@ -27,6 +27,7 @@
 }
 
 .posts-wrapper {
+    padding-top: 2rem;
     @include breakpoint(981px) {
         padding: 0 2rem;
         display: flex;
