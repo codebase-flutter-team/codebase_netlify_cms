@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://codebase.studio`,
-    title: "Flutter Software Development Company |  Codebase",
+    title: "Flutter Software Development Company | We build tech startups | Codebase Studio",
     titleTemplate: "%s · Codebase Studio",
-    author: "Codebase",
+    author: "Codebase Studio",
     image: "../assets/images/codebase_logo_black.png",
     defaultImage: "../assets/images/codebase_logo_black.png",
     url: "https://codebase.studio",
-    description: "Do you have an idea for a startup? We are a software development company that helps non-technical founders develop amazing mobile and web tech for their startup. Get a quote today."
+    description: "Do you have an idea for a tech startup? We are a cross-platfrom software development company that helps non-technical founders & entrepreneurs develop amazing mobile and web tech for their startup. Get a quote today."
   },
   plugins: [
         'gatsby-plugin-sharp',
