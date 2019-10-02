@@ -1,10 +1,9 @@
 ---
 templateKey: index-page
 image: /img/codebase_logo.png
-meta_title: Flutter Software Development Company |  Codebase
+meta_title: Flutter Software Development Company | We build tech startups | Codebase Studio
 meta_description: >-
-  We help non-technical founders develop amazing mobile and web tech for their
-  startup. Get a quote today.
+  Do you have an idea for a tech startup? We are a cross-platfrom software development company that helps non-technical founders & entrepreneurs develop amazing mobile and web tech for their startup. Get a quote today.
 path: /
 section1:
   description: >-
