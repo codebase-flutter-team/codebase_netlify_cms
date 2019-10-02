@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://codebase.studio`,
-    title: "Flutter Software Development Company | We build tech startups | Codebase Studio",
+    title: "Flutter Software Development Company | Helping you design and develop your tech startup",
     titleTemplate: "%s · Codebase Studio",
     author: "Codebase Studio",
     image: "../assets/images/codebase_logo_black.png",
