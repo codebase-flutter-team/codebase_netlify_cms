@@ -8,7 +8,7 @@ import Section4 from '../components/process-page/Section4';
 import Section5 from '../components/process-page/Section5';
 import Section6 from '../components/process-page/Section6';
 import Section7 from '../components/process-page/Section7';
-import Hero5 from '../components/heroes/Hero5';
+import Hero4 from '../components/heroes/Hero4';
 import SEO from '../components/SEO/Seo'
 
 export class ProcessPageTemplate extends Component {
@@ -27,7 +27,7 @@ export class ProcessPageTemplate extends Component {
                <Section5 content={section5}/>
                <Section6 content={section6}/>
                <Section7 content={section7}/>
-               <Hero5 content={section8}/>
+               <Hero4 content={section8}/>
            </Layout>
         )
     }
@@ -49,7 +49,7 @@ const ProcessPage = ({data}) => {
             section5={currentPage.frontmatter.process_section5}
             section6={currentPage.frontmatter.process_section6}
             section7={currentPage.frontmatter.process_section7}
-            section8={mainPage.frontmatter.section5}
+            section8={mainPage.frontmatter.section4}
         />
       )
   }
@@ -61,7 +61,7 @@ export const pageQuery = graphql`
   query {
     mainPage: markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        section5 {
+        section4 {
           description
           heading
           subheading

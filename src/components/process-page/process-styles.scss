@@ -13,6 +13,10 @@
 	}
 }
 
+// .process-section1.hero {
+// 	padding-top: 0;
+// }
+
 .process.pad {
 	padding: 7rem 4rem;
 	@include breakpoint(981px) {
@@ -31,6 +35,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
+		// img {
+		// 	max-width: 85%;
+		// 	border-radius: 3rem;
+		// }
 	}
 	.img-container.bottom {
 		justify-content: flex-end;

@@ -7,18 +7,21 @@ export default function Button(props) {
     const buttonColor = props.color ? props.color : "#693FAD";
     const color = props.color ? "#693FAD" : "#ffffff";
     const width = props.width ? props.width : "3.75rem";
-    const borderColor = props.white ? "#ffffff" : "#693FAD"
+    const maxWidth = props.maxWidth ? props.maxWidth : "250px";
+    const height = props.height ? props.height : "4rem";
+    const borderColor = props.white ? "#ffffff" : "#693FAD";
 
     const Button = styled.button`
         padding: 0 3rem;
         min-width: ${width};
+        max-width: ${maxWidth};
         background-color: ${buttonColor};
         border: 2px solid ${borderColor};
         border-radius: 5rem;
         color: ${color};
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
         font-size: 1.125rem;
-        height: 4rem;
+        height: ${height};
         display: flex;
         align-items: center;
         justify-content: center;
