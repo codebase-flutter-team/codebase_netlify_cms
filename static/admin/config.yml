@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: about-page2
+  branch: about_page2
 
 media_folder: static/img
 public_folder: /img
