@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-image: /img/codebase_logo.png
+header_image: /img/codebase_logo.svg
 meta_title: >-
   Flutter Software Development Company | We build tech startups | Codebase
   Studio
@@ -8,7 +8,6 @@ meta_description: >-
   Do you have an idea for a tech startup? We are a cross-platform software
   development company that helps non-technical founders & entrepreneurs develop
   amazing mobile and web tech for their startup. Get a quote today.
-path: /
 section1:
   description: >-
     We want to be your long-term partner who takes the whole
@@ -64,7 +63,9 @@ section4:
   subheading: Let's chat!
 section5:
   heading: Join the Community!
-  subheading: Join our Discord community to share knowledge, network and get feedback on your startup idea.
   image: /img/word_of_mouth.png
+  subheading: >-
+    Join our Discord community to share knowledge, network and get feedback on
+    your startup idea.
 ---
 
