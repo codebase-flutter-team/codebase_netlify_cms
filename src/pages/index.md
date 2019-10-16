@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-meta_image: /img/codebase_logo.svg
+header_image: /img/codebase_logo.svg
 meta_title: >-
   Flutter Software Development Company | We build tech startups | Codebase
   Studio
