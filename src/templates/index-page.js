@@ -29,10 +29,10 @@ export class IndexPageTemplate extends React.Component {
     
 
     render() {
-        const {section1, section2, section3, section4, section5, meta_title, meta_description, path} = this.props;
+        const {section1, section2, section3, section4, section5, meta_title, meta_description, image, path} = this.props;
         return (
             <Layout>
-                <SEO title={meta_title} description={meta_description} pathname={path} />
+                <SEO title={meta_title} description={meta_description} pathname={path} image={image}/>
                 <Hero1 content={section1}/>
                 <Hero2 isMobile={this.state.isMobile} content={section2}/>
                 <Hero3 content={section3}/>
@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => {
   
     return (
         <IndexPageTemplate
-          image={frontmatter.image}
+          image={frontmatter.meta_image}
           title={frontmatter.title}
           subtitle={frontmatter.subtitle}
           subheading={frontmatter.subheading}
@@ -78,7 +78,7 @@ export const pageQuery = graphql`
         meta_title
         meta_description
         path
-        image {
+        meta_image {
           publicURL
         }
         section1 {

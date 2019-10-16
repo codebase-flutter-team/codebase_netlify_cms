@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout/Layout'
-import Section1 from '../components/blog/Section1'
 import BlogPost from '../components/blog/BlogPost'
 import Topics from '../components/blog/Topics'
 import PopularPosts from '../components/blog/PopularPosts'
@@ -9,10 +8,6 @@ import './post-styles.scss'
 import Join from '../components/blog/Join'
 
 export class TopicPageTemplate extends Component {
-    constructor(props){
-        super(props);
-    }
-
     render() {
         const { currentPage: page, topicPath} = this.props.context
         const numPages = Math.ceil(this.props.content.length / this.props.context.postsPerPage);
@@ -56,7 +51,7 @@ export class TopicPageTemplate extends Component {
                     )}
                    <div className="pagination-numbers">
                     {Array.from({ length: numPages }, (_, i) => (
-                      <Link style={{color: page == i + 1 && `#693FAD`}} key={`pagination-number${i + 1}`} to={`/blog/${i === 0 ? "" : i + 1}`}>
+                      <Link style={{color: page === i + 1 && `#693FAD`}} key={`pagination-number${i + 1}`} to={`/blog/${i === 0 ? "" : i + 1}`}>
                          {i + 1} 
                       </Link>
                     ))}
