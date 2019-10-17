@@ -32,7 +32,7 @@ export class IndexPageTemplate extends React.Component {
         const {section1, section2, section3, section4, section5, meta_title, meta_description, image, path} = this.props;
         return (
             <Layout>
-                <SEO title={meta_title} description={meta_description} pathname={path} image={image.publicURL}/>
+                <SEO title={meta_title} description={meta_description} image={image.publicURL} pathname={path}/>
                 <Hero1 content={section1}/>
                 <Hero2 isMobile={this.state.isMobile} content={section2}/>
                 <Hero3 content={section3}/>
@@ -77,10 +77,10 @@ export const pageQuery = graphql`
       frontmatter {
         meta_title
         meta_description
-        path
         image {
           publicURL
         }
+        path
         section1 {
           heading
           description
