@@ -11,7 +11,7 @@ collections:
     folder: "src/pages/blog"
     filter: {field: "templateKey", value: "blog-post"}
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "visible", name: "visible", widget: "hidden", default: "true"}
@@ -30,7 +30,7 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: "Image", name: "header_image", widget: image}
+          - {label: "Meta_Image", name: "image", widget: image}
           - {label: "Meta_Title", name: "meta_title", widget: string}
           - {label: "Meta_Description", name: "meta_description", widget: "string"}
           - {label: "Section1", name: "section1", widget: "object", fields: [{label: "Heading", name: "heading", widget: "string"}, {label: "Description", name: "description", widget: "text"}, {label: "Image", name: "image", widget: "image"}]}
@@ -45,13 +45,12 @@ collections:
           - {label: "Section4", name: "section4", widget: "object", fields: [
             {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "string"},
-            {label: "Description", name: "description", widget: "text"},
-            {label: "Image", name: "image", widget: "image"}
+            {label: "Description", name: "description", widget: "text"}
             ]}
           - {label: "Section5", name: "section5", widget: "object", fields: [
             {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "string"},
-            {label: "Description", name: "description", widget: "text"}
+            {label: "Image", name: "image", widget: "image"}
             ]}
       - file: "src/pages/pricing/index.md"
         label: "Pricing Page"
@@ -63,12 +62,6 @@ collections:
           - {label: "Section 1", name: "pricing_page_section1", widget: "object", fields: [
             {label: "Header", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"}
-            ]}
-          - {label: "Section 2", name: "pricing_page_section2", widget: "object", fields: [
-            {label: "Header", name: "heading", widget: "string"},
-            {label: "Subheading", name: "subheading", widget: "text"},
-            {label: "text", name: "text", widget: "text"},
-            {label: "image", name: "image", widget: "image"}
             ]}
       - file: "src/pages/contact/index.md"
         label: "Contact Page"
@@ -85,6 +78,39 @@ collections:
             {label: "Header", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"},
             {label: "text", name: "text", widget: "text"}
+            ]}
+      - file: "src/pages/about/index.md"
+        label: "About Page"
+        name: "about"
+        fields: 
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+          - {label: "Meta_title", name: "meta_title", widget: "string"}
+          - {label: "Meta_description", name: "meta_description", widget: "string"}
+          - {label: "Section 1", name: "about_section1", widget: "object", fields: [
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Subheading", name: "subheading", widget: "text"}
+            ]}
+          - {label: "Section 2", name: "about_section2", widget: "object", fields: [
+            {label: "Image", name: "image", widget: "image"},
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Text", name: "text", widget: "text"}
+            ]}
+          - {label: "Section 3", name: "about_section3", widget: "object", fields: [
+            {label: "Image", name: "image", widget: "image"},
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Text", name: "text", widget: "text"}
+            ]}
+          - {label: "Section 4", name: "about_section4", widget: "object", fields: [
+            {label: "Heading", name: "heading", widget: "object", fields: [{label: "Heading", name: "heading", widget: "string"}, {label: "Subheading", name: "subheading", widget: "string"}]},
+            {label: "Meet The Team", name: "team", widget: "list", fields: [{label: "Image", name: "image", widget: "image"}, {label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "text"}]}
+            ]}
+          - {label: "Section 5", name: "about_section5", widget: "object", fields: [
+            {label: "Image", name: "image", widget: "image"},
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Text", name: "text", widget: "text"}
             ]}
       - file: "src/pages/process/index.md"
         label: "Process Page"
@@ -131,4 +157,5 @@ collections:
             {label: "Text", name: "text", widget: "text"},
             {label: "Image", name: "image", widget: "image"}
             ]}
+      
     

@@ -3,6 +3,7 @@ import './footer-styles.scss'
 import YTLogo from '../../assets/images/youtube.png'
 import MediumLogo from '../../assets/images/medium.png'
 import LinkedinLogo from '../../assets/images/linkedin.svg'
+import {Link} from 'gatsby'
 
 class Footer extends React.Component {
     render() {
@@ -12,7 +13,7 @@ class Footer extends React.Component {
                 <div className="grid-wrapper">
                     <div className="col-4 about">
                         <ul className="about">
-                            <li><a href="#">About</a></li>
+                            <li><Link to="/about">About</Link></li>
                             <li><a href="#">Policy</a></li>
                             <li><a href="#">Terms</a></li> 
                         </ul>

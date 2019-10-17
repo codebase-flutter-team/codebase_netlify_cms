@@ -1,12 +1,10 @@
-import React from "react";
-import Helmet from "react-helmet";
+import React from "react"
 import { Link, graphql } from 'gatsby'
-import Layout from '../components/layout/Layout';
+import Layout from '../components/layout/Layout'
 import Hero1 from '../components/heroes/Hero1'
 import Hero2 from '../components/heroes/Hero2'
 import Hero3 from '../components/heroes/Hero3'
 import Hero4 from '../components/heroes/Hero4'
-import Hero4Mobile from '../components/heroes/Hero4Mobile'
 import Hero5 from '../components/heroes/Hero5'
 import SEO from '../components/SEO/Seo'
 
@@ -31,14 +29,14 @@ export class IndexPageTemplate extends React.Component {
     
 
     render() {
-        const {section1, section2, section3, section4, section5, meta_title, meta_description, path} = this.props;
+        const {section1, section2, section3, section4, section5, meta_title, meta_description, image, path} = this.props;
         return (
             <Layout>
-                <SEO title={meta_title} description={meta_description} pathname={path} />
+                <SEO title={meta_title} description={meta_description} image={image.publicURL} pathname={path}/>
                 <Hero1 content={section1}/>
                 <Hero2 isMobile={this.state.isMobile} content={section2}/>
                 <Hero3 content={section3}/>
-                {this.state.isMobile ? <Hero4Mobile content={section4}/> : <Hero4 content={section4}/>}
+                <Hero4 content={section4}/>
                 <Hero5 content={section5}/>
             </Layout>
         );
@@ -54,6 +52,8 @@ const IndexPage = ({ data }) => {
     return (
         <IndexPageTemplate
           image={frontmatter.image}
+          title={frontmatter.title}
+          subtitle={frontmatter.subtitle}
           subheading={frontmatter.subheading}
           section1={frontmatter.section1}
           section2={frontmatter.section2}    
@@ -77,10 +77,10 @@ export const pageQuery = graphql`
       frontmatter {
         meta_title
         meta_description
-        path
         image {
           publicURL
         }
+        path
         section1 {
           heading
           description
@@ -119,14 +119,17 @@ export const pageQuery = graphql`
           description
           heading
           subheading
-          image {
-            publicURL
-          }
         }
         section5 {
-          description
           heading
           subheading
+          image {
+            childImageSharp {
+              fluid(maxWidth: 400) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

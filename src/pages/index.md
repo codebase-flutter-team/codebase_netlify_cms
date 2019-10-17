@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-header_image: /img/codebase_logo.png
+image: /img/codebase_logo.svg
 meta_title: >-
   Flutter Software Development Company | We build tech startups | Codebase
   Studio
@@ -57,16 +57,15 @@ section3:
     subheading: How are we different?
 section4:
   description: >
-    Not only will you be able to test out performance a Flutter app is, but you
-    will be able to compare our development costs to native development.
-  heading: Download the cost calculator
-  image: /img/placeholder394x707.png
-  subheading: How much will my project cost?
-section5:
-  description: >
     Our goal is to help you take your idea from concept to creation. Let’s chat
     and see how we can bring you value.
   heading: Want to talk about your project?
   subheading: Let's chat!
+section5:
+  heading: Join the Community!
+  image: /img/word_of_mouth.png
+  subheading: >-
+    Join our Discord community to share knowledge, network and get feedback on
+    your startup idea.
 ---
 
