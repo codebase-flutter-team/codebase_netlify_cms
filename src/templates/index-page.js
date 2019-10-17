@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => {
   
     return (
         <IndexPageTemplate
-          image={frontmatter.meta_image}
+          image={frontmatter.image}
           title={frontmatter.title}
           subtitle={frontmatter.subtitle}
           subheading={frontmatter.subheading}
@@ -78,7 +78,7 @@ export const pageQuery = graphql`
         meta_title
         meta_description
         path
-        meta_image {
+        image {
           publicURL
         }
         section1 {
