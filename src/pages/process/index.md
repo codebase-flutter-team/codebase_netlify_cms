@@ -11,12 +11,13 @@ process_section2:
   heading: Our Process
   subheading: What We Do
 process_section3:
-  heading: Design Research
+  heading: Project Research
   image: /img/process_img_1.png
-  subheading: Research
+  subheading: Getting Started
   text: >-
-    We will take your project prequirements and required features and map it to
-    your ideas, sketchs and designs.
+    The first step is to sit down with you and your team to discuss and outline
+    a path to success. Are you just starting out with an idea? Have you
+    validated your idea? Have you thought about how you will generate revenue?
 process_section4:
   heading: User Experience Prototyping
   image: /img/process_img_2.png
