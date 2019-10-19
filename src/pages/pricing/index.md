@@ -1,7 +1,10 @@
 ---
 templateKey: pricing-page
 meta_title: Pricing
-meta_description: pricing
+meta_description: >-
+  How much does it cost to build an app? Whether you are building an minimum
+  viable product or full featured product, we can build what you want for a
+  great price.
 pricing_page_section1:
   heading: Project Pricing
   subheading: >-
