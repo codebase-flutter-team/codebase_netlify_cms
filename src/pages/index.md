@@ -29,8 +29,8 @@ section2:
       image: /img/hero_icon_3.svg
       text: Build out a fully functional web and mobile app that is ready to scale
   heading:
-    heading: How we can help you
-    subheading: What We Do
+    heading: We can help at any stage of your idea
+    subheading: How can we help?
 section3:
   blurbs:
     - text: >
