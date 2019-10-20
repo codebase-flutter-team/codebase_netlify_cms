@@ -10,10 +10,8 @@ meta_description: >-
   amazing mobile and web tech for their startup. Get a quote today.
 section1:
   description: >-
-    We want to be your long-term partner who takes the whole
-
-    software development process off your shoulders so you can focus on growing
-    your startup.
+    We help non-tech teams and entrepreneurs turn early stage concepts into
+    fully-functional digital products.
   heading: Build your business while we build your software
   image: /img/following_the_idea.png
 section2:
