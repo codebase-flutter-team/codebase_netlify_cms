@@ -12,9 +12,9 @@ section1:
   description: >-
     We want to be your long-term partner who takes the whole
 
-    app development process off your shoulders so you can focus on building a
-    startup.
-  heading: We help founders develop amazing software
+    software development process off your shoulders so you can focus on growing
+    your startup.
+  heading: Build your business while we build your software
   image: /img/following_the_idea.png
 section2:
   blurbs:
