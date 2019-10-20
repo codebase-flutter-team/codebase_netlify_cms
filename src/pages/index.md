@@ -10,7 +10,7 @@ meta_description: >-
   amazing mobile and web tech for their startup. Get a quote today.
 section1:
   description: >-
-    We help non-tech teams and entrepreneurs turn early stage concepts into
+    We help non-technical teams and entrepreneurs turn early stage concepts into
     fully-functional digital products.
   heading: Build your business while we build your software
   image: /img/following_the_idea.png
