@@ -12,7 +12,7 @@ section1:
   description: >-
     We help non-technical teams and entrepreneurs turn early stage concepts into
     fully-functional digital products.
-  heading: Build your business while we build your software
+  heading: Build your business while we build your product
   image: /img/following_the_idea.png
 section2:
   blurbs:
