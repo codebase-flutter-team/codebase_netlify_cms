@@ -12,23 +12,23 @@ pricing_page_section1:
       title: Design Prototype 
       price: $1000
       features:
-        - Mobile & Web Wireframes
-        - Interactive Design Prototypes
+        - row: Mobile & Web Wireframes
+        - row: Interactive Design Prototypes
     column2:
       title: Minimum Viable Product
       price: $2500
       features:
-        - Mobile & Web Wireframes
-        - Interactive Design Prototypes
-        - IOS, Android & Web Apps Included
-        - QA Testing
+        - row: Mobile & Web Wireframes
+        - row: Interactive Design Prototypes
+        - row: IOS, Android & Web Apps Included
+        - row: QA Testing
     column3: 
       title: Fully-Featured Product
       price: $5000
       features:
-        - Mobile & Web Wireframes
-        - Interactive Design Prototypes
-        - IOS, Android & Web Apps Included
-        - QA Testing
+        - row: Mobile & Web Wireframes
+        - row: Interactive Design Prototypes
+        - row: IOS, Android & Web Apps Included
+        - row: QA Testing
 ---
 

@@ -14,7 +14,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "visible", name: "visible", widget: "hidden", default: "true"}
+      - {label: "visible", name: "visible", widget: "hidden", default: true}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Topic", name: "topic", widget: "string"}
       - {label: "Popular Post", name: "popularpost", widget: "boolean", required: false, default: false}
@@ -66,17 +66,17 @@ collections:
               {label: "First Column", name: "column1", widget: "object", fields: [
                 {label: "Title", name: "title", widget: "string"},
                 {label: "Price", name: "price", widget: "string"},
-                {label: "Features", name: "features", widget: "list"}
+                {label: "Features", name: "features", widget: "list", fields: [{label: "Row", name: "row", widget: "string"}]}
               ]},
                {label: "Second Column", name: "column2", widget: "object", fields: [
                 {label: "Title", name: "title", widget: "string"},
                 {label: "Price", name: "price", widget: "string"},
-                {label: "Features", name: "features", widget: "list"}
+                {label: "Features", name: "features", widget: "list", fields: [{label: "Row", name: "row", widget: "string"}]}
               ]},
                {label: "Third Column", name: "column3", widget: "object", fields: [
                 {label: "Title", name: "title", widget: "string"},
                 {label: "Price", name: "price", widget: "string"},
-                {label: "Features", name: "features", widget: "list"}
+                {label: "Features", name: "features", widget: "list", fields: [{label: "Row", name: "row", widget: "string"}]}
               ]}
             ]}
             ]}

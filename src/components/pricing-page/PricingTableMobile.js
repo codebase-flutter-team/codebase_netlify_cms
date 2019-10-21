@@ -4,7 +4,7 @@ import Button from '../button/Button'
 import {Link} from 'gatsby'
 
 export default function PricingTableMobile(props) {
-    const {column1, column2, column3} = props.content
+    const {column1, column2, column3} = props.content;
     return (
         <div className="hero table pricing-table-mobile">
             <table>
@@ -20,15 +20,15 @@ export default function PricingTableMobile(props) {
                 </tr>
 
                 <tr>
-                    <td>{column1.features[0]}</td>
+                    <td>{column1.features[0].row}</td>
                 </tr>
 
                 <tr>
-                    <td>{column1.features[1]}</td>
+                    <td>{column1.features[1].row}</td>
                 </tr>
-
-                {column1.features[2] &&  <tr><td>{column1.features[2]}</td></tr>}
-                {column1.features[3] &&  <tr><td>{column1.features[3]}</td></tr>}
+{/* 
+                {column1.features[2].row &&  <tr><td>{column1.features[2].row}</td></tr>}
+                {column1.features[3].row &&  <tr><td>{column1.features[3].row}</td></tr>} */}
 
             </table>
 
@@ -45,19 +45,19 @@ export default function PricingTableMobile(props) {
                 </tr>
 
                 <tr>
-                    <td>{column2.features[0]}</td>
+                    <td>{column2.features[0].row}</td>
                 </tr>
 
                 <tr>
-                    <td>{column2.features[1]}</td>
+                    <td>{column2.features[1].row}</td>
                 </tr>
 
                 <tr>
-                    <td>{column2.features[2]}</td>
+                    <td>{column2.features[2].row}</td>
                 </tr>
 
                 <tr>
-                    <td>{column2.features[3]}</td>
+                    <td>{column2.features[3].row}</td>
                 </tr>
             </table>
 
@@ -74,19 +74,19 @@ export default function PricingTableMobile(props) {
                 </tr>
 
                 <tr>
-                    <td>{column3.features[0]}</td>
+                    <td>{column3.features[0].row}</td>
                 </tr>
 
                 <tr>
-                    <td>{column3.features[1]}</td>
+                    <td>{column3.features[1].row}</td>
                 </tr>
 
                 <tr>
-                    <td>{column3.features[2]}</td>
+                    <td>{column3.features[2].row}</td>
                 </tr>
 
                 <tr>
-                    <td>{column3.features[3]}</td>
+                    <td>{column3.features[3].row}</td>
                 </tr>
             </table>
         </div>

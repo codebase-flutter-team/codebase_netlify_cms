@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-visible: 'true'
+visible: true
 date: 2019-10-18T00:56:36.343Z
 topic: Development
 popularpost: true

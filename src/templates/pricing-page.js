@@ -95,17 +95,23 @@ export const pageQuery = graphql`
           column1 {
             title
             price
-            features
+            features {
+              row
+            }
           }
           column2 {
             title
             price
-            features
+            features {
+              row
+            }
           }
           column3 {
             title
             price
-            features
+            features {
+              row
+            }
           }
         }
       }
