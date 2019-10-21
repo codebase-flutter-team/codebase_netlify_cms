@@ -33,7 +33,7 @@ export default function Hero3(props) {
 
                 <div className="col-5 img-container">
                     <Zoom>
-                        <img src={heading.image.publicURL} alt=""/>
+                        {/* <img src={heading.image.publicURL} alt=""/> */}
                     </Zoom>
                 </div>
             </div>
