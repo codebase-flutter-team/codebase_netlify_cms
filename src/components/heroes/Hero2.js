@@ -24,7 +24,7 @@ export default function Hero2({content}) {
                         <div key={index} className="col-4 hero2-item">
                             <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
                             <span className="image icon">
-                                {/* <img src={item.image.publicURL} alt={item.heading}/>     */}
+                                <img src={item.image.publicURL} alt={item.heading}/>    
                             </span>
                             <h3 className="lead">{item.heading}</h3>
                             <p>{item.text}</p>
