@@ -11,7 +11,7 @@ export default function Hero4BMobile(props) {
             <div className="grid-wrapper">
                <Zoom>
                     <div className="col-12">
-                        <img src={image.publicURL} alt={heading}/>
+                        {/* <img src={image.publicURL} alt={heading}/> */}
                     </div>
                </Zoom>
 
