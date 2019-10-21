@@ -51,13 +51,13 @@ export default function PricingTable(props) {
                         </tr>
 
                         <tr>
-                            {/* <td>{column1.features[2].row || ""}</td> */}
+                            <td>{column1.features[2] || ""}</td>
                             <td>{column2.features[2].row}</td>
                             <td>{column3.features[2].row}</td>
                         </tr>
 
                         <tr>
-                            {/* <td>{column1.features[3].row || ""}</td> */}
+                            <td>{column1.features[3] || ""}</td>
                             <td>{column2.features[3].row}</td>
                             <td>{column3.features[3].row}</td>
                         </tr>

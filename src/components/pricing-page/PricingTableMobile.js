@@ -26,9 +26,8 @@ export default function PricingTableMobile(props) {
                 <tr>
                     <td>{column1.features[1].row}</td>
                 </tr>
-{/* 
-                {column1.features[2].row &&  <tr><td>{column1.features[2].row}</td></tr>}
-                {column1.features[3].row &&  <tr><td>{column1.features[3].row}</td></tr>} */}
+                {column1.features[2] &&  <tr><td>{column1.features[2].row}</td></tr>}
+                {column1.features[3] &&  <tr><td>{column1.features[3].row}</td></tr>}
 
             </table>
 
