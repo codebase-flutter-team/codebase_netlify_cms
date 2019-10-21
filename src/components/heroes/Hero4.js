@@ -5,7 +5,7 @@ import './hero-styles.scss'
 import {Link} from 'gatsby'
 
 
-export default function Hero5(props) {
+export default function Hero4(props) {
   const {description, heading, subheading} = props.content
     return (
         <div className="hero hero5">
