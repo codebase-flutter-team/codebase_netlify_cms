@@ -11,7 +11,7 @@ collections:
     folder: "src/pages/blog"
     filter: {field: "templateKey", value: "blog-post"}
     create: true
-    slug: "{{year}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "visible", name: "visible", widget: "hidden", default: "true"}
@@ -61,7 +61,24 @@ collections:
           - {label: "Meta_description", name: "meta_description", widget: "string"}         
           - {label: "Section 1", name: "pricing_page_section1", widget: "object", fields: [
             {label: "Header", name: "heading", widget: "string"},
-            {label: "Subheading", name: "subheading", widget: "text"}
+            {label: "Subheading", name: "subheading", widget: "text"},
+            {label: "Table", name: "table", widget: "object", fields: [
+              {label: "First Column", name: "column1", widget: "object", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Price", name: "price", widget: "string"},
+                {label: "Features", name: "features", widget: "list"}
+              ]},
+               {label: "Second Column", name: "column2", widget: "object", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Price", name: "price", widget: "string"},
+                {label: "Features", name: "features", widget: "list"}
+              ]},
+               {label: "Third Column", name: "column3", widget: "object", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Price", name: "price", widget: "string"},
+                {label: "Features", name: "features", widget: "list"}
+              ]}
+            ]}
             ]}
       - file: "src/pages/contact/index.md"
         label: "Contact Page"

@@ -91,6 +91,23 @@ export const pageQuery = graphql`
       pricing_page_section1 {
         heading
         subheading
+        table {
+          column1 {
+            title
+            price
+            features
+          }
+          column2 {
+            title
+            price
+            features
+          }
+          column3 {
+            title
+            price
+            features
+          }
+        }
       }
      }
     }
