@@ -13,7 +13,7 @@ export default function Hero5(props) {
                     <a href="https://discord.gg/r3j7Byh" target="_blank" rel="noopener noreferrer"><Button white width="15.625rem">Join Us</Button></a>
                 </div>
                 <div className="col-6 img-container">
-                    {/* <Img style={{width: '100%'}} fluid={image.childImageSharp.fluid} alt=""/> */}
+                    <Img style={{width: '100%'}} fluid={image.childImageSharp.fluid} alt=""/>
                 </div>
             </div>
         </div>
