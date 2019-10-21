@@ -4,7 +4,7 @@ import Button from '../button/Button'
 import './hero-styles.scss'
 
 
-export default function Hero4Mobile(props) {
+export default function Hero4BMobile(props) {
     const {subheading, heading, description, image} = props.content;
     return (
         <div className="hero hero4-mobile">
