@@ -9,7 +9,7 @@ process_section1:
     idea cheaply but also develop and prepare for a full launch of your startup.
 process_section2:
   heading: Our Process
-  subheading: What We Do
+  subheading: How does it work?
 process_section3:
   heading: Project Research
   image: /img/process_img_1.png
@@ -21,7 +21,7 @@ process_section3:
 process_section4:
   heading: User Experience Prototyping
   image: /img/process_img_2.png
-  subheading: What We Do
+  subheading: Design
   text: >-
     Download our cost calculator app! Not only will you be able to test out
     performance a Flutter app is, but you will be able to compare our
@@ -29,7 +29,7 @@ process_section4:
 process_section5:
   heading: Develop & Test
   image: /img/process_img_3.png
-  subheading: What We Do
+  subheading: Development
   text: >-
     Download our cost calculator app! Not only will you be able to test out
     performance a Flutter app is, but you will be able to compare our
@@ -37,7 +37,7 @@ process_section5:
 process_section6:
   heading: Launch Prep
   image: /img/process_img_4.png
-  subheading: What We Do
+  subheading: Testing
   text: >-
     Download our cost calculator app! Not only will you be able to test out
     performance a Flutter app is, but you will be able to compare our
@@ -45,7 +45,7 @@ process_section6:
 process_section7:
   heading: Launch
   image: /img/process_img_5.png
-  subheading: What We Do
+  subheading: Launch
   text: >-
     Download our cost calculator app! Not only will you be able to test out
     performance a Flutter app is, but you will be able to compare our
