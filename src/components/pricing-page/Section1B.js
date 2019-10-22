@@ -6,7 +6,7 @@ import './styles.scss'
 
 export default class Section1B extends Component {
     render() {
-        const {heading, subheading} = this.props.content;
+        const {heading, subheading, table} = this.props.content;
         return (
             <div className="hero hero-mini pricing-section1B">
                 <div>
@@ -15,7 +15,7 @@ export default class Section1B extends Component {
                         <p>{subheading}</p>
                     </div>  
                     
-                    {this.props.isMobile ? <PricingTableMobile /> :  <PricingTable />}
+                    {this.props.isMobile ? <PricingTableMobile content={table}/> :  <PricingTable content={table}/>}
                 </div>
 
             </div>

@@ -4,7 +4,7 @@ import Button from '../button/Button'
 import './hero-styles.scss'
 
 
-export default function Hero4(props) {
+export default function Hero4B(props) {
     const {subheading, heading, description, image} = props.content;
     return (
         <div className="hero hero4">
@@ -20,7 +20,7 @@ export default function Hero4(props) {
                 </div>
                 <Zoom>
                     <div className="col-6 img-container">
-                       <img className="pc" src={image.publicURL} alt={heading}/>
+                       {/* <img className="pc" src={image.publicURL} alt={heading}/> */}
                     </div>
                 </Zoom>
             </div>

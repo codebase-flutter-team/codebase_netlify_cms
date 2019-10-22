@@ -20,7 +20,7 @@ export default function Hero1(props) {
 
                 <div className="col-5 img-container">
                    <Fade right>
-                    <img src={image.publicURL} alt="Image"/>
+                    <img src={image.publicURL} alt="Image"/> 
                    </Fade>
                 </div>
            </div>

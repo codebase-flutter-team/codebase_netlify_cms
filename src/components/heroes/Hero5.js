@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../button/Button'
 import Img from 'gatsby-image'
 
-export default function Section3(props) {
+export default function Hero5(props) {
     const {image, heading, subheading} = props.content 
     return (
         <div className="hero hero6">
