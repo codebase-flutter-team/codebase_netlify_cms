@@ -36,15 +36,15 @@ process_section5:
     development costs compared to native development.
 process_section6:
   heading: Product Launch
-  image: /img/process_img_4.png
+  image: /img/process_img_5.png
   subheading: Launch
   text: >-
     Getting an app live on the web or submitting an app to the App Store can be
     a tricky process, but we will help you along the way to get your app
     published, so you can start monetizing.
 process_section7:
-  heading: Continued Product Support
-  image: /img/process_img_5.png
+  heading: Product Support
+  image: /img/continual-product-development-development.png
   subheading: Support (Optional)
   text: >-
     Your product journey will continue to evolve with updates and new feature
