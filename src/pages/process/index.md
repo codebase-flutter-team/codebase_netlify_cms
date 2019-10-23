@@ -35,20 +35,19 @@ process_section5:
     performance a Flutter app is, but you will be able to compare our
     development costs compared to native development.
 process_section6:
-  heading: Launch Prep
+  heading: Product Launch
   image: /img/process_img_4.png
-  subheading: Testing
-  text: >-
-    Download our cost calculator app! Not only will you be able to test out
-    performance a Flutter app is, but you will be able to compare our
-    development costs compared to native development.
-process_section7:
-  heading: Launch
-  image: /img/process_img_5.png
   subheading: Launch
   text: >-
-    Download our cost calculator app! Not only will you be able to test out
-    performance a Flutter app is, but you will be able to compare our
-    development costs compared to native development.
+    Getting an app live on the web or submitting an app to the App Store can be
+    a tricky process, but we will help you along the way to get your app
+    published, so you can start monetizing.
+process_section7:
+  heading: Continued Product Support
+  image: /img/process_img_5.png
+  subheading: Support (Optional)
+  text: >-
+    Your product journey will continue to evolve with updates and new feature
+    roll-outs.
 ---
 
