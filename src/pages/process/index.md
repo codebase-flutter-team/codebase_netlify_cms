@@ -23,17 +23,18 @@ process_section4:
   image: /img/process_img_2.png
   subheading: Design
   text: >-
-    Download our cost calculator app! Not only will you be able to test out
-    performance a Flutter app is, but you will be able to compare our
-    development costs compared to native development.
+    Simplicity is the ultimate sophistication. Work with our visual design team
+    to create an elegant design that incorporates the latest trends and
+    capabilities.
 process_section5:
   heading: Develop & Test
   image: /img/process_img_3.png
   subheading: Development
   text: >-
-    Download our cost calculator app! Not only will you be able to test out
-    performance a Flutter app is, but you will be able to compare our
-    development costs compared to native development.
+    Agility is the name of the game. Our scrum-based Agile development
+    methodology ensures frequent builds and gives you plenty of time to test and
+    adjust. While our experienced Quality Assurance (QA) team will identify and
+    manage testing.
 process_section6:
   heading: Product Launch
   image: /img/process_img_5.png
