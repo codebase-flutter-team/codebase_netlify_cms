@@ -39,7 +39,7 @@ section3:
       title: Native Performance
     - text: >
         Flutter allows one codebase to generate an Andriod, IOS and web app with
-        future support for outputting a desktop and IoT devices
+        future support for desktop applications and IoT devices
       title: Supports all Major Platforms
     - text: >-
         Product development becomes very efficient, allowing us to only have to
