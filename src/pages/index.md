@@ -42,8 +42,9 @@ section3:
         future support for outputting a desktop and IoT devices
       title: Supports all Major Platforms
     - text: >-
-        Only only are our developers extremely efficient, only having to write
-        one codebase allows us to build your project fast and cheaper 
+        Product development becomes very efficient, allowing us to only have to
+        write one codebase which allows us to build your project fast and
+        cheaper 
       title: Built in Record Time
   heading:
     description: >
