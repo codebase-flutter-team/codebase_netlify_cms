@@ -18,8 +18,9 @@ section2:
   blurbs:
     - heading: Prototyping
       image: /img/hero_icon_1.svg
-      text: |
-        Creating a design mockup and interactive prototype to with real people
+      text: >
+        Creating a design mockup and interactive prototype to test with real
+        people
     - heading: Minimum Viable Product
       image: /img/hero_icon_2.svg
       text: >
