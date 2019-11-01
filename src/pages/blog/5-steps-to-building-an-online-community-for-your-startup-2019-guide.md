@@ -46,65 +46,52 @@ Choosing the right platform for your community can be a bit confusing since ther
 
 [**Facebook Groups**](https://www.facebook.com/help/167970719931213)
 
-\    Best used for: 
+Best used for: 
 
-\    One-on-one conversations 
-
-\    Customer service
-
-quick questions
+* One-on-one conversations 
+* Customer service
+* quick questions
 
 [**Telegram Groups**](https://telegram.org/faq#q-how-do-i-create-a-group) **/** [**Whatsapp Groups**](https://faq.whatsapp.com/en/android/26000123/?category=5245251)
 
 Best used for:
 
-One-on-one conversations
-
-Customer service
-
-quick questions
+* One-on-one conversations
+* Customer service
+* quick questions
 
 ### [**Instagram**](https://business.instagram.com/getting-started)
 
 Best used for:
 
-One-on-one conversations
-
-Customer service
-
-quick questions
+* One-on-one conversations
+* Customer service
+* quick questions
 
 [**Discord**](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) [**Slack**](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)
 
 Best used for:
 
-Group conversations
-
-Customer service
-
-Collaboration
-
+* Group conversations
+* Customer service
+* Collaboration
 * Identify influencers and advocates for your brand
 
 [**Reddit**](https://www.reddit.com/subreddits/create)
 
 Best used for:
 
-One-on-one conversations
-
-Customer service
-
-quick questions
+* One-on-one conversations
+* Customer service
+* quick questions
 
 [**Youtube**](https://support.google.com/youtube/answer/1646861?hl=en)
 
 Best used for:
 
-One-on-one conversations
-
-Customer service
-
-quick questions
+* One-on-one conversations
+* Customer service
+* quick questions
 
 3. ## Establish rules for your community
 4. ## Identify key internal stakeholders for the community
