@@ -74,7 +74,7 @@ Customer service
 
 quick questions
 
-[Discord](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) ****/ ****[Slack](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)
+[Discord](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) **/** [Slack](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)
 
 Best used for:
 
