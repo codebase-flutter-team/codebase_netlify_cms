@@ -46,11 +46,11 @@ Choosing the right platform for your community can be a bit confusing since ther
 
 [**Facebook Groups**](https://www.facebook.com/help/167970719931213)
 
-Best used for: 
+\    Best used for: 
 
-One-on-one conversations 
+\    One-on-one conversations 
 
-Customer service
+\    Customer service
 
 quick questions
 
