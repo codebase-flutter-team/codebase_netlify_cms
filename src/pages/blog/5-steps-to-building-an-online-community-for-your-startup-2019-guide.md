@@ -44,7 +44,7 @@ You can choose more than one option from the list or even another option that is
 
 Choosing the right platform for your community can be a bit confusing since there are so many options available on the market. I have broken down the more well known platforms with what it's best used for to help make your options clearer.
 
-[**Facebook Groups**](https://www.facebook.com/help/167970719931213)**
+[**Facebook Groups**](https://www.facebook.com/help/167970719931213)
 
 Best used for: 
 
@@ -86,7 +86,7 @@ Collaboration
 
 * Identify influencers and advocates for your brand
 
-\***\*[**Reddit**](https://www.reddit.com/subreddits/create)\*\***
+[**Reddit**](https://www.reddit.com/subreddits/create)
 
 Best used for:
 
