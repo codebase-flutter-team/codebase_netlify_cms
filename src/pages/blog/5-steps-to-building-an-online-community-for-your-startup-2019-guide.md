@@ -81,8 +81,12 @@ Choosing the right platform for your community can be a bit confusing since ther
 * Customer service
 * quick questions
 
+
+
 3. ## Establish rules for your community
+
 4. ## Identify key internal stakeholders for the community
+   It 
 5. ## Promote your community
 
 Your community isn't going to grow by itself, or at least not at first. You really need to embrace this as an additional communication channel for your startup. That means you should start thinking where you will promote you community. For example, we at Codebase Studio have built a "call to action" section on the right side of each of our blogs (Here is an example) as well as a "call to action" at the bottom of each major page of our site 
@@ -91,7 +95,7 @@ Your community isn't going to grow by itself, or at least not at first. You real
 
 # Best practices on how to build an online community
 
-So, you have create a community and are starting to get people to join. 
+So, you now have created a community and start to see people trickle in. What creates 
 
 * Create relationships - Be real, be genuine and be helpful. You never no
 * Never stop engaging - Reply 
