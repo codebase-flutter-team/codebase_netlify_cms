@@ -64,7 +64,7 @@ Customer service
 
 quick questions
 
-[**Instagram**](https://business.instagram.com/getting-started)**
+### [**Instagram**](https://business.instagram.com/getting-started)
 
 Best used for:
 
