@@ -83,6 +83,27 @@ module.exports = {
           },
         },
         {
+          resolve: `gatsby-plugin-facebook-pixel`,
+          options: {
+            pixelId: '407626136581094',
+          },
+        },
+        {
+          resolve: `gatsby-plugin-hotjar`,
+          options: {
+            id: 1381054,
+            sv: 6
+          },
+        },
+        {
+          resolve: `@mangoart/gatsby-plugin-purechat`,
+          options: {
+            // PureChat js snippet
+            enabled: true,
+            websiteId: `bd18f713-df8e-4782-9532-e519766415d4`, 
+          },
+        },
+        {
           resolve: `gatsby-plugin-manifest`,
           options: {
             name: 'gatsby-starter-default',
@@ -92,6 +113,15 @@ module.exports = {
             theme_color: '#663399',
             display: 'minimal-ui',
             icon: 'src/assets/images/codebase_logo_black.png', // This path is relative to the root of the site.
+          },
+        },
+        {
+          resolve: `@mangoart/gatsby-plugin-purechat`,
+          options: {
+            // include the PureChat js snippet
+            enabled: true,
+            // your website id, extract from the snippet provided by purechat 
+            websiteId: `YOUR_WEBSITE_ID`, 
           },
         },
         {
