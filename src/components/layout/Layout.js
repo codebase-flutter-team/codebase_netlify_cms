@@ -3,6 +3,7 @@ import "../../assets/scss/main.scss";
 import SEO from "../SEO/Seo";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
+import AcceptCookies from '../AcceptCookies'
 
 class Template extends React.Component {
     constructor(props) {
@@ -32,6 +33,7 @@ class Template extends React.Component {
                 <SEO/>
                 <Header />
                 {children}
+                <AcceptCookies />
                 <Footer />
             </div>
         );

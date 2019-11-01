@@ -1507,3 +1507,50 @@ h1.lead, h3.lead {
 	}
 }
 
+.cookie-banner {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	position: fixed;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #693FAD;
+	padding: 0.25rem 1rem;
+	transition: 0.5s;
+	bottom: 0;
+	z-index: 21474836470;
+	box-shadow: 20px 10px 5px rgba(0, 0, 0, 0.25);
+	p {
+		color: #ffffff;
+		margin: 0;
+	}
+	a {
+		color: #ffffff;
+		margin: 0;
+		text-decoration: underline;
+	}
+	.buttons {
+		display: flex;
+		width: 25%;
+		min-width: 20rem;
+		justify-content: space-between;
+		align-items: center;
+		button {
+			background-color: #ffffff;
+			color: #693FAD;
+			min-width: 6rem !important;
+		}
+	}
+	@include breakpoint(981px){
+		flex-direction: column;
+		padding: 1rem 1rem;
+		.buttons {
+			margin-top: 2rem;
+			width: 100%;
+		}
+	}
+}
+
+.fade-out-bottom {
+	bottom: -250px;
+}
