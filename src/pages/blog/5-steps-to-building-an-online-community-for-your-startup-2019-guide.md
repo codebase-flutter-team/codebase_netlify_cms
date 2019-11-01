@@ -44,7 +44,7 @@ You can choose more than one option from the list or even another option that is
 
 Choosing the right platform for your community can be a bit confusing since there are so many options available on the market. I have broken down the more well known platforms with what it's best used for to help make your options clearer.
 
-\***\*[**Facebook Groups**](https://www.facebook.com/help/167970719931213)\*\***
+****[**Facebook Groups**](https://www.facebook.com/help/167970719931213)****
 
 Best used for: 
 
@@ -54,7 +54,7 @@ Customer service
 
 quick questions
 
-\***\*[**Telegram Groups**](https://telegram.org/faq#q-how-do-i-create-a-group)** / **[**Whatsapp Groups**](https://faq.whatsapp.com/en/android/26000123/?category=5245251)\*\***
+[**Telegram Groups**](https://telegram.org/faq#q-how-do-i-create-a-group) **/** [**Whatsapp Groups**](https://faq.whatsapp.com/en/android/26000123/?category=5245251)****
 
 Best used for:
 
@@ -64,7 +64,7 @@ Customer service
 
 quick questions
 
-\***\*[**Instagram**](https://business.instagram.com/getting-started)\*\***
+****[**Instagram**](https://business.instagram.com/getting-started)****
 
 Best used for:
 
@@ -74,7 +74,7 @@ Customer service
 
 quick questions
 
-[Discord](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) **/** [Slack](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)
+****[**Discord**](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) **/** [**Slack**](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)****
 
 Best used for:
 
@@ -86,7 +86,7 @@ Collaboration
 
 * Identify influencers and advocates for your brand
 
-\***\*[**Reddit**](https://www.reddit.com/subreddits/create)\*\***
+****[**Reddit**](https://www.reddit.com/subreddits/create)****
 
 Best used for:
 
@@ -96,7 +96,7 @@ Customer service
 
 quick questions
 
-\***\*[**Youtube**](https://support.google.com/youtube/answer/1646861?hl=en)\*\***
+[**Youtube**](https://support.google.com/youtube/answer/1646861?hl=en)****
 
 Best used for:
 
