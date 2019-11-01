@@ -91,11 +91,11 @@ Choosing the right platform for your community can be a bit confusing since ther
 
 Depending on the needs of your community, you should establish who will be actively monitoring and maintaining it. For example, who will be making sure everyone is keeping to the rules you have establish? Or, a more important scenario could come up where a customer uses your community to make a complaint. Who will handle this?
 
-3. Depending on the needs of your community, you should establish who will be actively monitoring and maintaining it. For example, who will be making sure everyone is keeping to the rules you have establish? Or, a more important scenario could come up where a customer uses your community to make a complaint. Who will handle this? 
+Depending on the needs of your community, you should establish who will be actively monitoring and maintaining it. For example, who will be making sure everyone is keeping to the rules you have establish? Or, a more important scenario could come up where a customer uses your community to make a complaint. Who will handle this? 
 
 
 
-3. ## Promote your community
+## Promote your community
 
 Your community isn't going to grow by itself, or at least not at first. You really need to embrace this as an additional communication channel for your startup. That means you should start thinking where you will promote you community. For example, we at Codebase Studio have built a "call to action" section on the right side of each of our blogs (Here is an example) as well as a "call to action" at the bottom of each major page of our site 
 
