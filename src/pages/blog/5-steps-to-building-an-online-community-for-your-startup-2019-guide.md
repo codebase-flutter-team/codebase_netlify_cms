@@ -54,7 +54,7 @@ Customer service
 
 quick questions
 
-[**Telegram Groups**](https://telegram.org/faq#q-how-do-i-create-a-group) **/** [**Whatsapp Groups**](https://faq.whatsapp.com/en/android/26000123/?category=5245251)****
+[**Telegram Groups**](https://telegram.org/faq#q-how-do-i-create-a-group) **/** [**Whatsapp Groups**](https://faq.whatsapp.com/en/android/26000123/?category=5245251)
 
 Best used for:
 
@@ -74,7 +74,7 @@ Customer service
 
 quick questions
 
-****[**Discord**](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) **/** [**Slack**](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)****
+****[**Discord**](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) ****/ ****[**Slack**](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)****
 
 Best used for:
 
@@ -96,7 +96,7 @@ Customer service
 
 quick questions
 
-[**Youtube**](https://support.google.com/youtube/answer/1646861?hl=en)****
+[**Youtube**](https://support.google.com/youtube/answer/1646861?hl=en)
 
 Best used for:
 
