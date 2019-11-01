@@ -27,7 +27,7 @@ If you just want to 
 
 ## Promote your community
 
-1. ## Determine the focus for your online community
+### Determine the focus for your online community
 
 Figuring out your primary reason to create a community will help you determine the platform you choose as well how to better facilitate your goal.
 
@@ -40,7 +40,7 @@ Figuring out your primary reason to create a community will help you determine t
 
 You can choose more than one option from the list or even another option that isn't on the list. Just make sure you are very clear on your objective for building a community in the first place, it will save you a lot of time and effort in the future.
 
-2. ## Research which platform is best to grow your community
+## Research which platform is best to grow your community
 
 Choosing the right platform for your community can be a bit confusing since there are so many options available on the market. I have broken down the more well known platforms with what it's best used for to help make your options clearer.
 
@@ -83,11 +83,19 @@ Choosing the right platform for your community can be a bit confusing since ther
 
 
 
-3. ## Establish rules for your community
+## Establish rules for your community
 
-4. ## Identify key internal stakeholders for the community
-   It 
-5. ## Promote your community
+
+
+## Identify key internal stakeholders for the community
+
+Depending on the needs of your community, you should establish who will be actively monitoring and maintaining it. For example, who will be making sure everyone is keeping to the rules you have establish? Or, a more important scenario could come up where a customer uses your community to make a complaint. Who will handle this?
+
+3. Depending on the needs of your community, you should establish who will be actively monitoring and maintaining it. For example, who will be making sure everyone is keeping to the rules you have establish? Or, a more important scenario could come up where a customer uses your community to make a complaint. Who will handle this? 
+
+
+
+3. ## Promote your community
 
 Your community isn't going to grow by itself, or at least not at first. You really need to embrace this as an additional communication channel for your startup. That means you should start thinking where you will promote you community. For example, we at Codebase Studio have built a "call to action" section on the right side of each of our blogs (Here is an example) as well as a "call to action" at the bottom of each major page of our site 
 
