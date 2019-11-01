@@ -46,8 +46,8 @@ Choosing the right platform for your community can be a bit confusing since ther
 
 [**Facebook Groups**](https://www.facebook.com/help/167970719931213)
 
-* One-on-one conversations 
-* Customer service
+* Great for sharing content 
+* Can help with customer support issues
 * quick questions
 
 [**Telegram Groups**](https://telegram.org/faq#q-how-do-i-create-a-group) **/** [**Whatsapp Groups**](https://faq.whatsapp.com/en/android/26000123/?category=5245251)
@@ -56,7 +56,7 @@ Choosing the right platform for your community can be a bit confusing since ther
 * Customer service
 * quick questions
 
-### [**Instagram**](https://business.instagram.com/getting-started)
+## [**Instagram**](https://business.instagram.com/getting-started)
 
 * One-on-one conversations
 * Customer service
