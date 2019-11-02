@@ -20,11 +20,6 @@
     @include breakpoint(981px) {
         margin-bottom: 6rem;
     }
-    img {
-        // max-width: 100%;
-        width: 100%;
-        // margin: 2.5rem 0;
-    }
     h1,h2,h3,h4,h5,h6 {
         color: #4A3E7C;
     }
@@ -39,11 +34,8 @@
     h1 {
         margin-bottom: 3.25rem;
     }
-    h1,h2,h3,h4,h5,h6 {
-        color: #4A3E7C;
-    }
     p {
-        margin: 2.5rem 0;
+        margin: 2.5rem 0 2.5em;
     }
     ul, ol {
         margin: -2rem 0 1.5rem;
