@@ -56,7 +56,7 @@ Choosing the right platform for your community can be a bit confusing since ther
 * Customer service
 * quick questions
 
-## [**Instagram**](https://business.instagram.com/getting-started)
+[**Instagram**](https://business.instagram.com/getting-started)
 
 * One-on-one conversations
 * Customer service

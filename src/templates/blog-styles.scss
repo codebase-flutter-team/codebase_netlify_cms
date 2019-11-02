@@ -17,17 +17,15 @@
 }
 
 .blogPagepostbody {
-    img {
-        // max-width: 100%;
-        width: 100%;
-        // margin: 2.5rem 0;
+    @include breakpoint(981px) {
+        margin-bottom: 6rem;
     }
     h1,h2,h3,h4,h5,h6 {
         color: #4A3E7C;
     }
-    p {
-        margin: 3rem 0;
-    }   
+    a, a>strong {
+        color: #693FAD;
+    }
     img {
         // max-width: 100%;
         width: 100%;
@@ -36,13 +34,10 @@
     h1 {
         margin-bottom: 3.25rem;
     }
-    h1,h2,h3,h4,h5,h6 {
-        color: #4A3E7C;
-    }
     p {
-        margin: 3rem 0;
+        margin: 2.5rem 0 2.5em;
     }
-    ul,ol {
-        margin: 3rem 0;
+    ul, ol {
+        margin: -2rem 0 1.5rem;
     }
 }
