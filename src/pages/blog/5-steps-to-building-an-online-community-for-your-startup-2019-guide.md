@@ -54,7 +54,7 @@ Choosing the right platform for your community can be a bit confusing since ther
 
 * Great for reaching a younger audience
 * Your community needs to be based around something visual (Cakes, Travel, Cars)
-* It tends to be more of a one-way communication 
+* It tends to be more of a one-way communication but you can still talk through comments or direct messages
 
 [**Discord**](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) / [**Slack**](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)
 
@@ -92,11 +92,13 @@ Your community isn't going to grow by itself, or at least not at first. You real
 
 ![Codebase Studio Discord community - ](/img/codebase-discord-community.png)
 
-# Best practices on how to build an online community
+# Best practices on how to continue to grow an online community
 
-So, you now have created a community and start to see people trickle in. What creates 
+So, you have created a community of your very own, now what? The real reason why people join a community is to fulfill a need of theirs. That need could be to learn something new, gain more information, share experiences, support something their passionate about, gain or find the feeling of belonging. 
 
-* Create relationships - Be real, be genuine and be helpful. You never no
-* Never stop engaging - Reply 
-* Create content that adds value - 
-* Solve their problems - Be the expert in your industry,
+In order to facilitate and grow a deeper connection with your community, here are a few tips that will take you very far
+
+* Create relationships - Be real, be genuine and be helpful. 
+* Never stop engaging - Reply, reply, reply. It is very easy to let 
+* Create or find content that adds value - pay attention to questions that are asked. If there is no website or video that has the answer, create it and share it with your community. Not only will your members appreciate the help but your content can be shared and potentially bring in new members.
+* Solve their problems - Be the expert in your industry. You may not have all the answers in the beginning, but do your best to find it. Over time, you will gain more and more knowledge and the word will spread about how helpful your community has been
