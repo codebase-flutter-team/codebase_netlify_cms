@@ -42,58 +42,49 @@ You can choose more than one option from the list or even another option that is
 
 ## Research which platform is best to grow your community
 
-Choosing the right platform for your community can be a bit confusing since there are so many options available on the market. I have broken down the more well known platforms with what it's best used for to help make your options clearer.
-
-[**Facebook Groups**](https://www.facebook.com/help/167970719931213)
-
-* Great for sharing content 
-* Can help with customer support issues
-* quick questions
+Choosing the right platform for your community can be a bit confusing since there are so many options available on the market. I have broken down the more well known platforms below with a few points as to the benefits of each.
 
 [**Telegram Groups**](https://telegram.org/faq#q-how-do-i-create-a-group) **/** [**Whatsapp Groups**](https://faq.whatsapp.com/en/android/26000123/?category=5245251)
 
-* One-on-one conversations
-* Customer service
-* quick questions
+* Great for reaching people outside North America
+* You can grow a group very fast with the invite links
+* Communication is very easy
 
 [**Instagram**](https://business.instagram.com/getting-started)
 
-* One-on-one conversations
-* Customer service
-* quick questions
+* Great for reaching a younger audience
+* Your community needs to be based around something visual (Cakes, Travel, Cars)
+* It tends to be more of a one-way communication 
 
-[**Discord**](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) [**Slack**](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)
+[**Discord**](https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-) / [**Slack**](https://slack.com/intl/en-br/help/articles/206845317-create-a-slack-workspace)
 
-* Group conversations
-* Customer service
-* Collaboration
-* Identify influencers and advocates for your brand
+* Great for more technical or professional audiences 
+* You can create multiple subcategories to focus on different topics, keeping communication organized
 
 [**Reddit**](https://www.reddit.com/subreddits/create)
 
-* One-on-one conversations
-* Customer service
-* quick questions
+* Great for finding a more technical audience, generally between 20-40 years old
+* The content voting system allows for the most up-voted posts to bubble to the service, keeping engagement high
 
 [**Youtube**](https://support.google.com/youtube/answer/1646861?hl=en)
 
-* One-on-one conversations
-* Customer service
-* quick questions
+* A great visual platform for content you create
+* It is a bit harder to get into since you would need to create the videos yourself 
+* Video comment section allows you to engage with your audience
 
+[**Facebook Groups**](https://www.facebook.com/help/167970719931213)
 
+* Good for reaching 30+ age groups
+* Has a lot of tools to help grow your community
+* There are already a lot of people with a Facebook account
 
 ## Establish rules for your community
-
-
 
 ## Identify key internal stakeholders for the community
 
 Depending on the needs of your community, you should establish who will be actively monitoring and maintaining it. For example, who will be making sure everyone is keeping to the rules you have establish? Or, a more important scenario could come up where a customer uses your community to make a complaint. Who will handle this?
 
 Depending on the needs of your community, you should establish who will be actively monitoring and maintaining it. For example, who will be making sure everyone is keeping to the rules you have establish? Or, a more important scenario could come up where a customer uses your community to make a complaint. Who will handle this? 
-
-
 
 ## Promote your community
 
