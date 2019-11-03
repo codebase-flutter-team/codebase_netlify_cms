@@ -5,18 +5,18 @@ date: 2019-11-01T14:24:54.863Z
 topic: Marketing
 popularpost: true
 featuredimage: /img/codebase-studio-5-steps-to-creating-a-community-for-your-startup.jpg
-title: '5 steps to building an online community for your startup [2019 guide]'
+title: 4 steps to building an online community for your startup
 description: >-
   Become the expert in your industry by creating a community around your brand.
-  Follow the 5 steps to building an online community for your startup which will
+  Follow the 4 steps to building an online community for your startup which will
   help you with viral marketing, customer satisfaction, brand awareness, of
   course, taking care of customer service issues.
 ---
 I think we can all agree that building a startup is an extremely difficult task. Aside from getting product market fit, the other critical elements to successfully building a startup will be customer satisfaction, brand awareness, becoming an authority in your industry and, of course, taking care of customer service issues. One of the best ways to cover all of those areas is to create a community around your startup. If you get it right, you will set yourself apart from your competition and potentially turn a few of your customers into active brand patrons and ambassadors. 
 
-I have outlined a 5 step process to building an online community for your startup, followed up with the best practices that you should follow to maintain a great experience for your users.
+I have outlined a 4 step process to building an online community for your startup, followed up with the best practices that you should follow to maintain a great experience for your users.
 
-# 5 steps to building an online community for your startup
+# 4 steps to building an online community for your startup
 
 If you just want to 
 
@@ -78,8 +78,6 @@ Choosing the right platform for your community can be a bit confusing since ther
 * Has a lot of tools to help grow your community
 * There are already a lot of people with a Facebook account
 
-## Establish rules for your community
-
 ## Identify key internal stakeholders for the community
 
 Depending on the needs of your community, you should establish who will be actively monitoring and maintaining it. For example, who will be making sure everyone is keeping to the rules you have establish? Or, a more important scenario could come up where a customer uses your community to make a complaint. Who will handle this?
@@ -88,9 +86,13 @@ Depending on the needs of your community, you should establish who will be activ
 
 ## Promote your community
 
-Your community isn't going to grow by itself, or at least not at first. You really need to embrace this as an additional communication channel for your startup. That means you should start thinking where you will promote you community. For example, we at Codebase Studio have built a "call to action" section on the right side of each of our blogs (Here is an example) as well as a "call to action" at the bottom of each major page of our site 
+Your community isn't going to grow by itself, or at least not at first. You really need to embrace this as an additional communication channel for your startup. That means you should start thinking where you will promote you community. For example, our website, [Codebase Studio](https://codebase.studio/), has a "call to action" section on the right side of each of each blogs as well as a "call to action" at the bottom of each major page of our site.
 
-![Codebase Studio Discord community - ](/img/codebase-discord-community.png)
+
+
+![Codebase Studio Discord community banner](/img/codebase-discord-community.png "Codebase Studio Discord community")
+
+Think of ways that you can build your community into your product or online process. A few other options would be to place it in your email signature, on linkedIn and other social networks. Get creative with it and try to differentiate yourself from your competition.
 
 # Best practices on how to continue to grow an online community
 
@@ -99,6 +101,6 @@ So, you have created a community of your very own, now what? The real reason why
 In order to facilitate and grow a deeper connection with your community, here are a few tips that will take you very far
 
 * Create relationships - Be real, be genuine and be helpful. 
-* Never stop engaging - Reply, reply, reply. It is very easy to let 
+* Never stop engaging - Reply wherever you can. It can be difficult to get people to talk so you need to be the driving force for engagement in the beginning. There will be a tipping point where some of your members become just as engaged as you are. 
 * Create or find content that adds value - pay attention to questions that are asked. If there is no website or video that has the answer, create it and share it with your community. Not only will your members appreciate the help but your content can be shared and potentially bring in new members.
 * Solve their problems - Be the expert in your industry. You may not have all the answers in the beginning, but do your best to find it. Over time, you will gain more and more knowledge and the word will spread about how helpful your community has been
