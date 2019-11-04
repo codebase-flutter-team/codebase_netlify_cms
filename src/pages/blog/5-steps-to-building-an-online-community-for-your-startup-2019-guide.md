@@ -82,9 +82,12 @@ Depending on the needs of your community, you should establish who will be activ
 
 ## Promote your community
 
-Your community isn't going to grow by itself, or at least not at first. You really need to embrace this as an additional communication channel for your startup. That means you should start thinking where you will promote you community. For example, our website, [Codebase Studio](https://codebase.studio/), has a "call to action" section on the right side of each of each blogs as well as a "call to action" at the bottom of each major page of our site.
+Your community isn't going to grow by itself, or at least not at first. You really need to embrace this as an additional communication channel for your startup. That means you should start thinking where you will promote you community. For example, our website, [Codebase Studio](https://codebase.studio/), has a "call to action" section on the right side of each of each of the blogs as well as a "call to action" at the bottom of each major page on our site.
 
+Here is a picture of the promotional banner from our site.
 ![Codebase Studio Discord community banner](/img/codebase-discord-community.png "Codebase Studio Discord community")
+
+Feel free to join our startup server 
 
 Think of ways that you can build your community into your product or online process. A few other options would be to place it in your email signature, on linkedIn and other social networks. Get creative with it and try to differentiate yourself from your competition.
 
