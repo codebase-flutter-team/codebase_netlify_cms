@@ -14,20 +14,16 @@ description: >-
 ---
 I think we can all agree that building a startup is an extremely difficult task. Aside from getting product market fit, the other critical elements to successfully building a startup will be customer satisfaction, brand awareness, becoming an authority in your industry and, of course, taking care of customer service issues. One of the best ways to cover all of those areas is to create a community around your startup. If you get it right, you will set yourself apart from your competition and potentially turn a few of your customers into active brand patrons and ambassadors. 
 
-I have outlined a 4 step process to building an online community for your startup, followed up with the best practices that you should follow to maintain a great experience for your users.
+I have outlined a 4 step process to build an online community for your startup, which will get into more detail further into the article. I have also added a few of the the best practices that you should follow to maintain a great experience for your users.
 
 # 4 steps to building an online community for your startup
-
-If you just want to 
 
 1. Determine the focus for your online community
 2. Research which platform is best to grow your community
 3. Identify key internal stakeholders for the community
-4. Establish rules for your community
+4. Promote your community
 
-## Promote your community
-
-### Determine the focus for your online community
+## Determine the focus for your online community
 
 Figuring out your primary reason to create a community will help you determine the platform you choose as well how to better facilitate your goal.
 
@@ -87,8 +83,6 @@ Depending on the needs of your community, you should establish who will be activ
 ## Promote your community
 
 Your community isn't going to grow by itself, or at least not at first. You really need to embrace this as an additional communication channel for your startup. That means you should start thinking where you will promote you community. For example, our website, [Codebase Studio](https://codebase.studio/), has a "call to action" section on the right side of each of each blogs as well as a "call to action" at the bottom of each major page of our site.
-
-
 
 ![Codebase Studio Discord community banner](/img/codebase-discord-community.png "Codebase Studio Discord community")
 
