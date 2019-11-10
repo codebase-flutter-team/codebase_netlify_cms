@@ -16,8 +16,6 @@ I think we can all agree that building a startup is an extremely difficult task.
 
 I have outlined a 4 step process to build an online community for your startup, which will get into more detail further into the article. I have also added a few of the the best practices that you should follow to maintain a great experience for your users.
 
-# 4 steps to building an online community for your startup
-
 1. Determine the focus for your online community
 2. Research which platform is best to grow your community
 3. Identify key internal stakeholders for the community
