@@ -14,8 +14,8 @@ class Footer extends React.Component {
                     <div className="col-4 about">
                         <ul className="about">
                             <li><Link to="/about">About</Link></li>
-                            <li><a href="#">Policy</a></li>
-                            <li><a href="#">Terms</a></li> 
+                            <li><a href="/privacy-policy">Policy</a></li>
+                            <li><a href="/terms">Terms</a></li> 
                         </ul>
                     </div>
 
