@@ -157,7 +157,7 @@ collections:
             {label: "Image", name: "image", widget: "image"}
             ]}
           - {label: "Section 5", name: "process_section5", widget: "object", fields: [
-           {label: "Heading", name: "heading", widget: "string"},
+            {label: "Heading", name: "heading", widget: "string"},
             {label: "Subheading", name: "subheading", widget: "text"},
             {label: "Text", name: "text", widget: "text"},
             {label: "Image", name: "image", widget: "image"}
@@ -174,5 +174,22 @@ collections:
             {label: "Text", name: "text", widget: "text"},
             {label: "Image", name: "image", widget: "image"}
             ]}
+       - file: "src/pages/terms/index.md"
+         label: "Terms and Conditions"
+         name: "term"
+         fields:
+           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "terms-page"}
+           - {label: "Meta_title", name: "meta_title", widget: "string"}
+           - {label: "Meta_description", name: "meta_description", widget: "string"}
+           - {label: "Body", name: "body", widget: "markdown"}
+       - file: "src/pages/privacy-policy/index.md"
+         label: "Privacy Policy"
+         name: "privacy-policy"
+         fields:
+           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "privacy-policy"}
+           - {label: "Meta_title", name: "meta_title", widget: "string"}
+           - {label: "Meta_description", name: "meta_description", widget: "string"}
+           - {label: "Body", name: "body", widget: "markdown"}                    
+          
       
     
