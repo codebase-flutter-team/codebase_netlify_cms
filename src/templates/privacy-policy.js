@@ -9,6 +9,7 @@ export const PrivacyPolicyTemplate = ({meta_title, meta_description, content}) =
 
   return (
     <Layout>
+         <SEO title={meta_title} description={meta_description}/>
         <TermsPageContent content={content}/>
     </Layout>
   )
@@ -25,8 +26,8 @@ const PrivacyPolicy = ({ data }) => {
   const { markdownRemark } = data
   return (
       <PrivacyPolicyTemplate
-        meta_title={markdownRemark.meta_title}
-        meta_description={markdownRemark.meta_description}
+        meta_title={markdownRemark.frontmatter.meta_title}
+        meta_description={markdownRemark.frontmatter.meta_description}
         content={markdownRemark.html}
       />
   )
