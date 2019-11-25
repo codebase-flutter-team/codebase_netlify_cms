@@ -15,6 +15,10 @@ nav {
 	@include breakpoint(600px) {
 		max-width: 100vw;
 	}
+	a.active {
+		// color:  _palette(accent3);
+		color: #6bd4c8;
+	}
 	.inner>a {
 		margin: 0;
 		padding: 0;
