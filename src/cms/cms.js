@@ -8,12 +8,12 @@ import './styles.js'
 // import ContactPagePreview from './preview-templates/ContactPagePreview' 
 // import BlogPagePreview from './preview-templates/BlogPageTemplate'
 // import ProcessPagePreview from './preview-templates/ProcessPagePreview'
-import IndexPagePreview from './preview-templates/IndexPagePreview'
+// import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 
-CMS.registerPreviewTemplate('index', IndexPagePreview);
+// CMS.registerPreviewTemplate('index', IndexPagePreview);
 // CMS.registerPreviewTemplate('process', ProcessPagePreview);
 // CMS.registerPreviewTemplate('blog',  BlogPagePreview);
 // CMS.registerPreviewTemplate('pricing',  PricingPagePreview);

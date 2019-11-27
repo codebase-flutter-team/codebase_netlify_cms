@@ -16,7 +16,6 @@ nav {
 		max-width: 100vw;
 	}
 	a.active {
-		// color:  _palette(accent3);
 		color: #6bd4c8;
 	}
 	.inner>a {
@@ -55,6 +54,9 @@ nav.mobile-nav {
 	z-index: 10;
 	height: 3.725rem;
 	top: 0;
+	a.active {
+		color: #6bd4c8;
+	}
 	.main {
 		background-color: #693FAD;
 		box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
