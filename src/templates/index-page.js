@@ -48,6 +48,7 @@ export class IndexPageTemplate extends React.Component {
 
 const IndexPage = ({ data }) => {
     const { frontmatter } = data.markdownRemark
+    let data2 = data.markdownRemark
   
     return (
         <IndexPageTemplate
@@ -67,9 +68,7 @@ const IndexPage = ({ data }) => {
     )
   }
   
-  export default IndexPage
-  
-
+  export default IndexPage  
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
