@@ -7,7 +7,7 @@ import './hero-styles.scss'
 export default function Hero3(props) {
     const {heading, blurbs} = props.content;
   
-   if(typeof image === 'object') {
+   if(typeof heading.image === 'object') {
     return (
         <div className="hero hero3">
             <div className="grid-wrapper">
@@ -65,11 +65,11 @@ export default function Hero3(props) {
                     </dl>
                 </div>
 
-                {/* <div className="col-5 img-container">
+                <div className="col-5 img-container">
                     <Zoom>
-                        <img src={heading.image.publicURL} alt=""/>
+                        <img src={heading.image} alt=""/>
                     </Zoom>
-                </div> */}
+                </div>
             </div>
         </div>
     )
