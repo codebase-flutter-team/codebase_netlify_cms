@@ -4,7 +4,6 @@ import { BlogPageTemplate } from '../../templates/blog-page'
 
 const BlogPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
-
   if (data) {
     return (
       <BlogPageTemplate

@@ -63,9 +63,9 @@ export default class MobileNav extends Component {
 
                     <div style={heightStyle} className={"hidden " + visible}>
                         <ul>
-                            <li><h3><Link to="/">Why Choose Us</Link></h3></li>
-                            <li><h3><Link to="/pricing">Pricing</Link></h3></li>
-                            <li><h3><Link to="/process">Process</Link></h3></li>
+                            <li><h3><Link to="/" activeClassName="active">Why Choose Us</Link></h3></li>
+                            <li><h3><Link to="/pricing" activeClassName="active">Pricing</Link></h3></li>
+                            <li><h3><Link to="/process" activeClassName="active">Process</Link></h3></li>
                         </ul>
                         <p className="blog"><Link to="/blog">Blog</Link></p>
                         <Button color="white"><Link to="/contact">LET'S CHAT!</Link></Button>

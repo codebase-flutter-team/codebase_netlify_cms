@@ -32,7 +32,7 @@ export class IndexPageTemplate extends React.Component {
         const {section1, section2, section3, section4, section5, meta_title, meta_description, image, path} = this.props;
         return (
             <Layout>
-                <SEO title={meta_title} description={meta_description} image={image.publicURL} pathname={path}/>
+                <SEO title={meta_title} description={meta_description} image={image} pathname={path}/>
                 <Hero1 content={section1}/>
                 <Hero2 isMobile={this.state.isMobile} content={section2}/>
                 <Hero3 content={section3}/>
@@ -48,6 +48,7 @@ export class IndexPageTemplate extends React.Component {
 
 const IndexPage = ({ data }) => {
     const { frontmatter } = data.markdownRemark
+    let data2 = data.markdownRemark
   
     return (
         <IndexPageTemplate
@@ -67,9 +68,7 @@ const IndexPage = ({ data }) => {
     )
   }
   
-  export default IndexPage
-  
-
+  export default IndexPage  
 
 export const pageQuery = graphql`
   query IndexPageTemplate {

@@ -13,7 +13,7 @@ export class TopicPageTemplate extends Component {
         const numPages = Math.ceil(this.props.content.length / this.props.context.postsPerPage);
         const isFirst = page === 1
         const isLast = page === numPages
-        const prevPage = page - 1 === 1 ? "${topicPath}" : `${topicPath}/${(page - 1).toString()}`
+        const prevPage = page - 1 === 1 ? `${topicPath}` : `${topicPath}/${(page - 1).toString()}`
         const nextPage = `/blog/${(page + 1).toString()}`
         const {section1, content} = this.props
         return (

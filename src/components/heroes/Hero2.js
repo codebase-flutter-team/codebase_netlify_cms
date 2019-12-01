@@ -7,7 +7,7 @@ import {Link} from 'gatsby'
 
 export default function Hero2({content}) {
     const {heading, blurbs} = content;
-
+   
     return (
         <div className="hero hero2" id="hero2">
             <div className="grid-wrapper">
@@ -20,6 +20,7 @@ export default function Hero2({content}) {
                 </div>
 
                 {blurbs.map((item, index) => {
+                   if (typeof item.image === 'object') {
                     return (
                         <div key={index} className="col-4 hero2-item">
                             <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
@@ -31,6 +32,19 @@ export default function Hero2({content}) {
                             </ScrollAnimation>
                         </div>  
                     )
+                   } else {
+                    return (
+                        <div key={index} className="col-4 hero2-item">
+                            <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
+                            <span className="image icon">
+                                <img src={item.image} alt={item.heading}/>    
+                            </span>
+                            <h3 className="lead">{item.heading}</h3>
+                            <p>{item.text}</p>
+                            </ScrollAnimation>
+                        </div>  
+                    )
+                   }
                 })}
 
                 <div className="col-12">
@@ -38,5 +52,5 @@ export default function Hero2({content}) {
                 </div>
             </div>
         </div>
-    )
+    ) 
 }
